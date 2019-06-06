@@ -1,4 +1,23 @@
-.test {
-    background: blue;
-    
+
+
+/*------------------------------contact page*/
+
+
+.form-group {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contact-heading {
+        text-align: center;
+}
+
+.form-submit-button {
+    margin-top: 20px;
+}
+
+#inputtext {
+    height: 150px;
+    resize: none;
 }
