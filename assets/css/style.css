@@ -12,7 +12,7 @@
 }
 
 .contact-heading {
-        text-align: center;
+    text-align: center;
 }
 
 .form-submit-button {
@@ -33,10 +33,23 @@
 /*------------------------------footer*/
 
 
-.footer-main-section{
-    margin-top: 2em;
+
+.footer-main-section {
     width: 100%;
     background: #e89640;
-    height: 2em;
-    
+    text-align: center;
+    padding: 2em;
+    vertical-align: middle;
+    margin-top: 3em;
+}
+
+
+.footer-icons a {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  color: #fafafa;
+}
+
+.footer-icons a:hover {
+  color: red;
 }
