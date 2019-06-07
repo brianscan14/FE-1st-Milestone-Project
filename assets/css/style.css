@@ -1,5 +1,7 @@
 
 
+
+
 /*------------------------------contact page*/
 
 
@@ -18,6 +20,23 @@
 }
 
 #inputtext {
-    height: 150px;
+    height: 10em;
     resize: none;
+    padding-top: 0;
+    
+}
+
+.inputtextbox {
+    padding-top: 0;
+}
+
+/*------------------------------footer*/
+
+
+.footer-main-section{
+    margin-top: 2em;
+    width: 100%;
+    background: #e89640;
+    height: 2em;
+    
 }
