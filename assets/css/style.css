@@ -1,6 +1,29 @@
 
 
+/*------------------------------article/home page*/
 
+.article {
+    height: 65vh;
+}
+
+
+/*------------------------------Nav nar*/
+
+.navbar-heading {
+    margin-top: 2em;
+    background: url("../images/moonbeamlogo.png");
+    background-position: center;
+    background-size: 10em 10em;
+    background-repeat: no-repeat;
+}
+
+
+.main-nav-bar {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
 
 /*------------------------------contact page*/
 
@@ -32,7 +55,6 @@
 }
 
 /*------------------------------footer*/
-
 
 
 .footer-main-section {
