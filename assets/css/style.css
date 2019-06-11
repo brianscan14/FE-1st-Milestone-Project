@@ -10,20 +10,34 @@
 /*------------------------------Nav nar*/
 
 .navbar-heading {
-    margin-top: 2em;
+    height: 2em;
     background: url("../images/moonbeamlogo.png");
     background-position: center;
-    background-size: 10em 10em;
+    background-size: 4em 2em;
     background-repeat: no-repeat;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
+.navbar-toggler {
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-small-screen {
+    display: block;
+  }
+}
 
 .main-nav-bar {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
 }
+
+
 
 /*------------------------------contact page*/
 
