@@ -9,33 +9,61 @@
 
 /*------------------------------Nav nar*/
 
-.navbar-heading {
-    height: 2em;
-    background: url("../images/moonbeamlogo.png");
-    background-position: center;
-    background-size: 4em 2em;
-    background-repeat: no-repeat;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
+/*----------
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  z-index: -1;
+}
 
+
+.testing {
+    
+ background-image: url("../assets/images/handmadecrafts.jpg");
+ background-color: blue;
+ 
+}
+
+.moon-logo {
+    width: 30px;
+    height: 30px;
 }
 
 .navbar-toggler {
-    margin-right: 0;
+    margin-right: auto;
+    padding-left: 10px;
 }
 
-@media only screen and (max-width: 767px) {
+-Nav nar*/
+
+.moon-logo {
+    text-align: center;
+    padding-right: .5em;
+}
+
+@media only screen and (max-width: 576px) {
   .nav-small-screen {
-    display: block;
+    display: none;
   }
 }
+
+@media only screen and (min-width: 579px) {
+  .nav-md-screen {
+    display: none;
+  }
+}
+
+
+/*----------
 
 .main-nav-bar {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
+
+-Nav nar*/
 
 
 
