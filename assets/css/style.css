@@ -9,33 +9,6 @@
 
 /*------------------------------Nav nar*/
 
-/*----------
-.navbar-brand {
-  transform: translateX(-50%);
-  left: 50%;
-  position: absolute;
-  z-index: -1;
-}
-
-
-.testing {
-    
- background-image: url("../assets/images/handmadecrafts.jpg");
- background-color: blue;
- 
-}
-
-.moon-logo {
-    width: 30px;
-    height: 30px;
-}
-
-.navbar-toggler {
-    margin-right: auto;
-    padding-left: 10px;
-}
-
--Nav nar*/
 
 
 
@@ -56,21 +29,17 @@
   }
 }
 
-.navbar-toggler {
-    width: 18%;
+
+/*------------------------------about page*/
+
+.aboutpic {
+    width: 100%;
+    height: 25em;
 }
 
-/*----------
-
-.main-nav-bar {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+.about-section {
+    background-color: #5efffe;
 }
-
--Nav nar*/
-
-
 
 /*------------------------------contact page*/
 
