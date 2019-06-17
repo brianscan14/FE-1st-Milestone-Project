@@ -1,4 +1,6 @@
-
+body {
+        font-family: 'PT Serif', serif;
+}
 
 /*------------------------------article/home page*/
 
@@ -12,7 +14,9 @@ article/home page*/
 /*------------------------------Nav nar*/
 
 
-
+.navbar {
+    background-color: #bc772a;
+}
 
 .moon-logo {
     text-align: center;
@@ -39,11 +43,40 @@ article/home page*/
     height: 25em;
 }
 
+
 .about-section {
     background-color: #5efffe;
+
 }
 
+.about-shop-link {
+    color: #fd33ff;
+}
 
+.about-work-link {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-sub {
+    background-color: #fafafa;
+    color: #fd33ff;
+    border-color: #fd33ff;
+}
+
+@media only screen and (max-width: 576px) {
+  .about-paragraph {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 579px) {
+  .about-paragraph {
+    width: 95%;
+  }
+}
 
 /*------------------------------contact page*/
 
