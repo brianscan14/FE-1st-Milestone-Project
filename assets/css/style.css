@@ -3,7 +3,7 @@
 /*------------------------------article/home page*/
 
 .article {
-    height: 65vh;
+    height: 75vh;
 }
 
 
@@ -37,6 +37,8 @@
 
 -Nav nar*/
 
+
+
 .moon-logo {
     text-align: center;
     padding-right: .5em;
@@ -54,6 +56,9 @@
   }
 }
 
+.navbar-toggler {
+    width: 18%;
+}
 
 /*----------
 

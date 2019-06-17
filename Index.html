@@ -16,37 +16,40 @@
 
 <header>
 	
-<nav class="navbar navbar-light navbar-expand-md bg-light d-block">
+<span class="moon-logo d-none d-sm-block">
+<img src="./assets/images/moonbeamlogo.png" style="width: 10em;height:10em;">
+</span>
 
-<!–– below class is a part of main thing and nav bar, need to seperate, with new class or div? ––>
-	    	
-	    	
-        <span class="navbar-brand"><img src="./assets/images/moonbeamlogo.png" 
-        alt="Mother.Moonbeam"  style="width:7em;height:7em;"></span>
-	
-      <button class="navbar-toggler d-md-none mr-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fas fa-bars"></span></button>
-        
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="nav nav-pills nav-small-screen mb-3 justify-content-center" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-about" aria-selected="false">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-portfolio" role="tab" aria-controls="pills-portfolio" aria-selected="false">Portfolio</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+  </li>
+</ul>
 
-		<div class="main-nav-bar">	
-			<ul class="nav nav-tabs nav-small-screen nav-justified" id="myTab" role="tablist">
-		  <li class="nav-item">
-		    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">About</a>
-		  </li>
-		   <li class="nav-item">
-		    <a class="nav-link" id="portfolio-tab" data-toggle="tab" href="#portfolio" role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-		  </li>
-		</ul>
-		</div>
+<nav class="navbar navbar-light navbar-expand-sm nav-md-screen bg-light d-md-none fixed-top">
+        <span class="navbar-brand">
+                    Mother.Moonbeam <img src="https://cdn5.vectorstock.com/i/thumb-large/07/74/moon-and-stars-vector-19380774.jpg" style="width: 2em;height:2em;">
+        </span>
 
-</div>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon fa-sm"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ml-auto mr-auto"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item ml-auto mr-auto"><a class="nav-link" href="">About</a></li>
+                <li class="nav-item ml-auto mr-auto"><a class="nav-link" href="">About</a></li>
+            </ul>
+        </div>
 
 </nav>
 
