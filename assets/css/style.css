@@ -13,28 +13,22 @@ article/home page*/
 
 /*------------------------------Nav nar*/
 
+.nav-link a {
+        color: #bc772a;
+    background-color: red;
+    
+}
 
-
-.nav-pills a {
-    color: #bc772a;
-    background-color: #f1f1f1; /*---------------there is something in the css which is overwriting this when it is active/
-                                                    clicked but you click somewhere else on page---------------*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ff00d4;
 }
 
 .nav-pills a:hover {
     color: #bc772a;
-    background-color: #f1f1f1 !important;
+    background-color: #f1f1f1;
 }
 
-.nav-pills a:visited {
-    color: #bc772a;
-    background-color: red !important;
-}
-
-.nav-pills a:focus {
-    background-color: red !important;
-    color: red;
-}
 
 .navbar {
     background-color: #bc772a;
