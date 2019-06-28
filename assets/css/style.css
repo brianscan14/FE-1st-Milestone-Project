@@ -14,24 +14,26 @@ article/home page*/
 /*------------------------------Nav nar*/
 
 
+
+
+.nav-pills .nav-link:hover {
+    color: #fff;
+    background-color: #adf1f0; 
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    opacity: 0.2;
+}
+
 .nav-pills .nav-link.active {
     color: #fff;
     background-color: #adf1f0;
+
 }
 
-/*------------------------------
-
-.nav-link a:hover {
-    color: #fff;
-    background-color: red !important;   
+.nav-pills .nav-link:visited {
+        color: #fff;
+    background-color: #adf1f0; 
 }
-
-.nav-pills a:hover {
-    color: #fff;
-    background-color: red !important;
-}
-
-----Hover not working right*/
 
 .nav-pills a {
     color: #bc772a;
@@ -79,7 +81,7 @@ article/home page*/
 }
 
 .about-section {
-    background-color: #adf1f0;
+    background-color: #d6efed;
 }
 
 .about-shop-link {
@@ -161,5 +163,8 @@ article/home page*/
 }
 
 .footer-icons a:hover {
-  color: red;
+  color: #adf1f0;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+          
 }
