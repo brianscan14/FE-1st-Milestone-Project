@@ -6,35 +6,52 @@ body {
 
 
 .homepic {
-    width: 20em;
+    width: 100%;
     height: 20em;
-    margin-right: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .homepic {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .brownmoonbeampic {
-    width: 15em;
-    height: 10em;
+    width: 20em;
+    height: 15em;
 }
 
-.mainbackground {
-    background-color: red;
+@media only screen and (max-width: 767px) {
+  .brownmoonbeampic {
+    display: none;
+  }
+}
+
+.brownpicshopnow {
+    width: 10em;
+    background-color: #adf1f0;
+    margin-left: 3em;
+    margin-top: 1.5em;
+
+}
+
+.nojobbackground2 {
+    background-color: #ff9344;
+    background-image: url("https://i.ytimg.com/vi/XyB8GuwWMIs/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 15em;
     margin-left: 2.5em;
     margin-right: auto;
 }
 
-@media only screen and (max-width: 576px) {
-  .mainbackground {
+@media only screen and (max-width: 767px) {
+  .nojobbackground2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .mainbackground1 {
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -46,22 +63,136 @@ body {
     margin-bottom: 3.75em;
 }
 
-.mainbackground1 {
+.ordernowbackground1 {
     background-color: #adf1f0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF4tOdD5G7xMao6fnyYk41UEF843OMnBIeMGyF0L1Ur5OcUEVh");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 15em;
     margin-right: 2.5em;
     margin-left: auto;
 }
 
+@media only screen and (max-width: 767px) {
+  .ordernowbackground1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .custombit {
     text-align: center;
     padding-top: 1em;
+    border: double;
+    font-family: 'Courgette', cursive;
+    
 }
 
 .shopnowbit {
     text-align: center;
     padding-top: 1em;
+    border: double;
 }
+
+.shopcollectionhome {
+    height: 10em;
+    margin-right: 2.5em;
+    margin-left: auto;
+    margin-top: 4em;
+}
+
+.summerblog {
+    background-color: #adf1f0;
+    height: 25em;
+    margin-left: 2.5em;
+    margin-right: auto;
+}
+
+.springblog {
+    background-color: #adf1f0; 
+    height: 25em;
+    margin-right: 2.5em;
+    margin-left: auto;
+    margin-top: -7em;
+}
+
+.autumnblog {
+    background-color: #adf1f0;
+    height: 25em;
+    margin-left: 2.5em;
+    margin-right: auto;
+}
+
+/*------------------------------bottom insta photos*/
+
+#instapiccontainer {
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+
+.photobanner {
+	height: 15em;
+	width: 2700px;
+	margin-top: 2em; /*------------------------------depending on how many photos go in, this will have to match hte total pixels*/
+}
+
+
+.instapic {
+    width: 300px;
+    height: 20em;
+}
+
+.firstbannerpic {
+ -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+     -ms-animation: bannermove 30s linear infinite;
+      -o-animation: bannermove 30s linear infinite;
+         animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+
 
 /*------------------------------
 .article {
