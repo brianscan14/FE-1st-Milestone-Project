@@ -4,6 +4,65 @@ body {
 
 /*------------------------------article/home page*/
 
+
+.homepic {
+    width: 20em;
+    height: 20em;
+    margin-right: 0;
+}
+
+.brownmoonbeampic {
+    width: 15em;
+    height: 10em;
+}
+
+.mainbackground {
+    background-color: red;
+    height: 15em;
+    margin-left: 2.5em;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 576px) {
+  .mainbackground {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .mainbackground1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.middlebit {
+    background-color: #fff;
+    height: 7.5em;
+    width: 7.5em;
+    margin-top: 3.75em;
+    margin-bottom: 3.75em;
+}
+
+.mainbackground1 {
+    background-color: #adf1f0;
+    height: 15em;
+    margin-right: 2.5em;
+    margin-left: auto;
+}
+
+.custombit {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.shopnowbit {
+    text-align: center;
+    padding-top: 1em;
+}
+
 /*------------------------------
 .article {
     height: 50vh;
@@ -31,11 +90,14 @@ article/home page*/
 }
 
 .nav-pills .nav-link:visited {
-        color: #fff;
+    color: #fff;
     background-color: #adf1f0; 
+
 }
 
 .nav-pills a {
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
     color: #bc772a;
 }
 
@@ -165,6 +227,6 @@ article/home page*/
 .footer-icons a:hover {
   color: #adf1f0;
     transition-timing-function: ease-in-out;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
           
 }
