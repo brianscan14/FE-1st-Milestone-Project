@@ -439,12 +439,39 @@ article/home page*/
     padding-top: 0;
 }
 
+/*------------------------------shop*/
+
+
+aside {
+    height: 65vh;
+    width: 20%;
+    background-color: #fafafa;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 576px) {
+  aside {
+    display: none;
+  }
+}
+
+article {
+    width: 80%;
+    float: right;
+}
+@media only screen and (max-width: 576px) {
+  .shopfront {
+padding-top: 4em;
+  }
+}
+
+
 /*------------------------------footer*/
 
 
 .footer-main-section {
     width: 100%;
-    background: #fafafa;
+    background-color: #fff;
     text-align: center;
     padding: 2em;
     vertical-align: middle;
@@ -455,13 +482,13 @@ article/home page*/
 
 
 .footer-icons a {
-  padding-left: 1em;
-  padding-right: 1em;
-  color: #bc772a;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #bc772a;
 }
 
 .footer-icons a:hover {
-  color: #adf1f0;
+    color: #a0a6ad;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
           
