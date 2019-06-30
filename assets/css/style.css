@@ -97,6 +97,8 @@ body {
 }
 
 .shopcollectionhome {
+    font-family: 'Sacramento', cursive;
+
     height: 10em;
     margin-right: 2.5em;
     margin-left: auto;
@@ -161,7 +163,7 @@ body {
 }
 
 .origami-title {
-    padding-top: 3px;
+    padding-top: 5px;
 }
 
 .autumnblog {
@@ -311,22 +313,20 @@ article/home page*/
 
 .nav-pills .nav-link:hover {
     color: #fff;
-    background-color: #adf1f0; 
+    background-color: #bc772a; 
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     opacity: 0.2;
 }
 
 .nav-pills .nav-link.active {
-    color: #fff;
-    background-color: #adf1f0;
-
+    color: #fafafa;
+    background-color: #bc772a;
 }
 
 .nav-pills .nav-link:visited {
     color: #fff;
-    background-color: #adf1f0; 
-
+    background-color: #bc772a; 
 }
 
 .nav-pills a {
