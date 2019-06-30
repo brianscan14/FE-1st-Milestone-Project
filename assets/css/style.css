@@ -462,13 +462,12 @@ article {
 }
 @media only screen and (max-width: 576px) {
   .shopfront {
-margin-top: 4em;
-margin-left: -4em;
+margin-left: -3em;
   }
 }
 
 .shopfront {
-    padding-right: 1em;
+    padding: 1em;
 }
 
 .shop-item {
@@ -477,7 +476,7 @@ margin-left: -4em;
 }
 
 .shop-item1 {
-    width: 100%;
+    width: 90%;
     height: 80%
 }
 
@@ -486,10 +485,23 @@ margin-left: -4em;
 }
 
 .sortby {
-    margin-right: 0;
+    margin-right: 7em;
     text-align: right;
     margin-left: auto;
     margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 576px) {
+  .sortby {
+    margin-top: 4em;
+    margin-bottom: 1em;
+  }
+}
+
+.aside-section {
+    border-bottom: 1px solid gray;
+    color: #fafafa;
+    border-bottom-width: 50%;
 }
 
 
