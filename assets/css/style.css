@@ -445,8 +445,9 @@ article/home page*/
 aside {
     height: 100vh;
     width: 20%;
-    background-color: #fafafa;
+    background-color: #fff;
     display: inline-block;
+    
 }
 
 @media only screen and (max-width: 576px) {
@@ -460,6 +461,15 @@ article {
     float: right;
     height: 100vh;
 }
+
+.aside-section {
+    border-bottom: 1px solid gray;
+    border-bottom-width: calc(10% - 20px);
+    margin-top: 1.5em;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
 @media only screen and (max-width: 576px) {
   .shopfront {
 margin-left: -3em;
@@ -499,11 +509,7 @@ margin-left: -3em;
   }
 }
 
-.aside-section {
-    border-bottom: 1px solid gray;
-    border-bottom-width: calc(10% - 20px);
-    margin-top: 1.5em;
-}
+
 
 
 /*------------------------------footer*/
