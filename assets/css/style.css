@@ -468,11 +468,12 @@ margin-left: -3em;
 
 .shopfront {
     padding: 1em;
+    height: 100%;
 }
 
 .shop-item {
     width: 10em;
-    height: 20em;
+    height: 15em;
 }
 
 .shop-item1 {
@@ -500,8 +501,8 @@ margin-left: -3em;
 
 .aside-section {
     border-bottom: 1px solid gray;
-    color: #fafafa;
-    border-bottom-width: 50%;
+    border-bottom-width: calc(10% - 20px);
+    margin-top: 1.5em;
 }
 
 
@@ -518,8 +519,8 @@ margin-left: -3em;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
-
+    bottom: 0;
+      left: 0;
 }
 
 
