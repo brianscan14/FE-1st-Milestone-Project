@@ -425,12 +425,10 @@ body {
 #inputtext {
     height: 10em;
     resize: none;
-    padding-top: 0;
-    
-}
+    padding-top: 0.5em;
 
-.inputtextbox {
-    padding-top: 0;
+    
+    
 }
 
 .contactsendbutton {
