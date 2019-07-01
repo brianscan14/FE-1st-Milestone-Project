@@ -433,6 +433,11 @@ body {
     padding-top: 0;
 }
 
+.contactsendbutton {
+    color: #bc772a;
+    border-color: #bc772a;
+}
+
 /*-----------------------------------------------------------------------------------------shop*/
 
 
@@ -462,6 +467,11 @@ article {
     margin-top: 1.5em;
     margin-left: 2em;
     margin-right: 1em;
+}
+
+.shopfilterheading {
+    font-family: 'DM Serif Display', serif;
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -538,7 +548,7 @@ margin-left: -4em;
   text-decoration: none;
 }
 
-.text {
+.overlaytext {
   color: pink;
   font-size: 20px;
   position: absolute;
@@ -556,14 +566,13 @@ a {
      color: inherit;
      text-decoration: none;
 }
+
 a:hover {
      color: #bc772a;
      text-decoration: none;
 }
 
-a:visited {
-  color: green;
-}
+
 
 
 /*----------------------------------------------------------------------------------footer*/
