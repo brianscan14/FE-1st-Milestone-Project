@@ -299,12 +299,6 @@ body {
 }
 
 
-/*------------------------------
-.article {
-    height: 50vh;
-}
-article/home page*/
-
 
 /*------------------------------Nav nar*/
 
@@ -443,11 +437,11 @@ article/home page*/
 
 
 aside {
-    height: 100vh;
     width: 20%;
     background-color: #fff;
     display: inline-block;
-    
+    float: left;
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -459,12 +453,12 @@ aside {
 article {
     width: 80%;
     float: right;
-    height: 100vh;
+
+        display: inline-block;
 }
 
 .aside-section {
     border-bottom: 1px solid gray;
-    border-bottom-width: calc(10% - 20px);
     margin-top: 1.5em;
     margin-left: 2em;
     margin-right: 1em;
@@ -472,27 +466,39 @@ article {
 
 @media only screen and (max-width: 576px) {
   .shopfront {
-margin-left: -3em;
+margin-left: -4em;
   }
 }
 
 .shopfront {
     padding: 1em;
-    height: 100%;
 }
 
 .shop-item {
     width: 10em;
     height: 15em;
+    margin-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+@media only screen and (max-width: 576px) {
+  .shop-item {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+  }
 }
 
 .shop-item1 {
-    width: 90%;
+    width: 100%;
     height: 80%
 }
 
 .shop-photo-title {
     text-align: center;
+    width: 100%;
+    padding-top: 0.5em;
+    
 }
 
 .sortby {
@@ -509,6 +515,49 @@ margin-left: -3em;
   }
 }
 
+/*----------hoverstuff*/
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  overflow: hidden;
+  width: 60%;
+  height:0;
+  transition: .5s ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shop-item:hover .overlay {
+  bottom: 3em;
+  height: 20%;
+  color: pink;
+  text-decoration: none;
+}
+
+.text {
+  color: pink;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a {
+     color: inherit;
+     text-decoration: none;
+}
+a:hover {
+     color: #bc772a;
+     text-decoration: none;
+}
 
 
 
@@ -527,6 +576,7 @@ margin-left: -3em;
     display: block;
     bottom: 0;
       left: 0;
+        clear: both;
 }
 
 
