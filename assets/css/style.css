@@ -15,6 +15,7 @@ body {
   .homepic {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
   }
 }
 
@@ -408,14 +409,15 @@ body {
 
 .form-group {
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2em;
 }
 
 .contact-heading {
-    text-align: center;
     margin-bottom: 1em;
-    width: 30%;
+    width: 100%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-family: 'DM Serif Display', serif;
@@ -424,7 +426,7 @@ body {
 
 .headingborder {
     border-bottom:  1px solid gray;
-    width: 15%;
+    width: 3em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -443,6 +445,14 @@ body {
     color: pink;
     border-color: pink;
 }
+
+@media only screen and (max-width: 576px) {
+  .contact-heading {
+    margin-top: 2em;
+
+  }
+}
+
 
 
 /*-----------------------------------------------------------------------------------------shop*/
@@ -537,8 +547,7 @@ margin-left: -4em;
   }
 }
 
-/*------------------------------------------------------------------------------smale screen hoverstuff*/
-
+/*------------------------------------------------------------------------------shop small screen filter*/
 
 
 .filtertest {
@@ -554,7 +563,7 @@ margin-left: -4em;
               }
 } 
 
-/*------------------------------------------------------------------------------hoverstuff*/
+/*------------------------------------------------------------------------------shop hoverstuff*/
 
 
 .overlay {
