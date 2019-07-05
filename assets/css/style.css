@@ -300,37 +300,8 @@ body {
 
 
 
-/*----------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------------------------Nav nar*/
 
-
-
-
-.nav-item .nav-link:hover {
-    color: #fff;
-    background-color: #bc772a; 
-    transition-timing-function: ease-in-out;
-    transition-duration: 1s;
-    opacity: 0.2;
-}
-
-.nav-item .nav-link.active {
-    color: #fafafa;
-    background-color: #bc772a;
-}
-
-.nav-item .nav-link:visited {
-    color: #fff;
-    background-color: #bc772a; 
-}
-
-.nav-item a {
-    transition-timing-function: ease-in-out;
-    transition-duration: 1s;
-    color: #bc772a;
-}
-
--------------Nav nar*/
-/*------------------
 
 @media only screen and (min-width: 579px) {
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
@@ -339,8 +310,8 @@ body {
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     text-align: center;
-font-family: 'DM Serif Display', serif;
-font-size: 1.2rem;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
 
 }
 }
@@ -352,43 +323,16 @@ font-size: 1.2rem;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
     opacity: 0.8;
-
-
 }
 }
-
-/*------------------
-
-.navbar {
-    background-color: #fafafa;
-}
-
-.moon-logo {
-    text-align: center;
-    padding-right: .5em;
-}
-
-@media only screen and (max-width: 576px) {
-  .nav-small-screen {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 579px) {
-  .nav-md-screen {
-    display: none;
-  }
-}
-
-------about page*/
 
 .navbar-logo-large {
 
-background-image: url("../images/moonbeamlogo-transparent.png");
-background-size: contain;
-height: 12em;
-width: 12em;
-background-repeat: no-repeat;
+    background-image: url("../images/moonbeamlogo-transparent.png");
+    background-size: contain;
+    height: 12em;
+    width: 12em;
+    background-repeat: no-repeat;
 }
 
 
