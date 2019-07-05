@@ -313,6 +313,9 @@ body {
     font-family: 'DM Serif Display', serif;
     font-size: 1.2rem;
 
+  font-weight: 100;
+
+
 }
 }
 
@@ -334,7 +337,6 @@ body {
     width: 12em;
     background-repeat: no-repeat;
 }
-
 
 
 /*------------------------------------------------------------------------------------------------------about page*/
