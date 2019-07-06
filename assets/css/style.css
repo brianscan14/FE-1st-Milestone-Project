@@ -2,20 +2,49 @@ body {
         font-family: 'PT Serif', serif;
 }
 
-/*------------------------------------------------------------------------------------------article/home page*/
 
+/*-----------------------------------------------------------------------------------------------------Nav nar*/
+
+
+@media only screen and (min-width: 579px) {
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+
+    color: black;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
+}
+}
+
+@media only screen and (min-width: 579px) {
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+
+    color: #bc772a;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    opacity: 0.8;
+}
+}
+
+.navbar-logo-large {
+
+    background-image: url("../images/moonbeamlogo-transparent.png");
+    background-size: contain;
+    height: 12em;
+    width: 12em;
+    background-repeat: no-repeat;
+}
+
+
+
+/*------------------------------------------------------------------------------------------article/home page*/
 
 .homepic {
     width: 100%;
     height: 25em;
-
-}
-
-@media only screen and (max-width: 576px) {
-  .homepic {
-    margin-left: auto;
-    margin-right: auto;
-  }
+    opacity: 0.8;
 }
 
 .brownmoonbeampic {
@@ -23,15 +52,11 @@ body {
     height: 15em;
 }
 
-
 .brownpicshopnow {
     width: 10em;
     background-color: #fafafa;
-    margin-left: 3em;
-    margin-top: 1.5em;
     color: #bc772a;
     border-color: #bc772a;
-
 }
 
 .nojobbackground2 {
@@ -44,22 +69,6 @@ body {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 767px) {
-  .nojobbackground2 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-  }
-}
-
-.middlebit {
-    background-color: #fff;
-    height: 7.5em;
-    width: 7.5em;
-    margin-top: 3.75em;
-    margin-bottom: 3.75em;
-}
-
 .ordernowbackground1 {
     background-color: #adf1f0;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF4tOdD5G7xMao6fnyYk41UEF843OMnBIeMGyF0L1Ur5OcUEVh");
@@ -70,8 +79,23 @@ body {
     margin-left: auto;
 }
 
+.middlebit {
+    background-color: #fff;
+    height: 7.5em;
+    width: 7.5em;
+    margin-top: 3.75em;
+    margin-bottom: 3.75em;
+}
+
 @media only screen and (max-width: 767px) {
   .ordernowbackground1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nojobbackground2 {
     margin-left: auto;
     margin-right: auto;
   }
@@ -82,7 +106,6 @@ body {
     padding-top: 1em;
     border: double;
     font-family: 'Courgette', cursive;
-    
 }
 
 .shopnowbit {
@@ -93,14 +116,13 @@ body {
 
 .shopcollectionhome {
     font-family: 'Sacramento', cursive;
-
     height: 10em;
     margin-right: 2.5em;
     margin-left: auto;
     margin-top: 0.5em;
 }
 
-.summerblog {
+.bealtaineblog {
     background-color: #adf1f0;
     height: 15em;
     margin-left: 2.5em;
@@ -108,12 +130,12 @@ body {
     z-index: 1;
 }
 
-.summerblogpic {
+.borderblogpic {
     height: 100%;
     width: 100%;
 }
 
-.summerblogborder1 {
+.bealtaineblogborder1 {
     height: 15em;
     margin-left: -1.5em;
     margin-right: 1.5em;
@@ -128,22 +150,7 @@ body {
     letter-spacing: 6px;
 }
 
-.bealtainebloglink {
-    text-decoration: none;
-    color: inherit;
-}
-
-.bealtainebloglink a:hover {
-    text-decoration: none;
-    color: red;
-}
-
-.summerblogpic {
-    height: 100%;
-    width: 100%;
-}
-
-.springblog {
+.origamiblog {
     background-color: #fafafa;
     height: 25em;
     margin-right: 2.5em;
@@ -152,16 +159,8 @@ body {
     border-style: solid;
     border-width: medium;
 }
-.winterorigamipic {
-    height: 100%;
-    width: 100%;
-}
 
-.origami-title {
-    padding-top: 5px;
-}
-
-.autumnblog {
+.yuleblog {
     background-color: #fafafa;
     height: 25em;
     margin-left: 2.5em;
@@ -171,7 +170,7 @@ body {
     border-width: medium;
 }
 
-.autumnblogborder1 {
+.yuleblogborder1 {
     height: 25em;
     margin-left: -1.5em;
     margin-right: 1.5em;
@@ -183,7 +182,6 @@ body {
     margin-right: 0.5em;
     margin-left: auto;
     text-align: right;
-    
 }
 
 @media only screen and (max-width: 767px) {
@@ -193,21 +191,22 @@ body {
     margin-bottom: 3em;
 }
 }
+
 @media only screen and (max-width: 767px) {
 .shopcollectionhome {
     margin-left: auto;
     margin-right: auto;
-    margin-top: -1em;
-    margin-bottom: 4em;
+    margin-top: -1.5em;
+    margin-bottom: 5em;
     text-align: center;
 }
 }
 
 @media only screen and (max-width: 767px) {
-.springblog {
+.origamismallscreen {
     margin-left: auto;
     margin-right: auto;
-
+    margin-bottom: 3em;
 }
 }
 
@@ -293,44 +292,6 @@ body {
 }
 
 
-
-/*-----------------------------------------------------------------------------------------------------Nav nar*/
-
-
-@media only screen and (min-width: 579px) {
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-
-    color: black;
-    transition-timing-function: ease-in-out;
-    transition-duration: 1s;
-    text-align: center;
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.2rem;
-
-  font-weight: 100;
-
-
-}
-}
-
-@media only screen and (min-width: 579px) {
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-
-    color: #bc772a;
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.5s;
-    opacity: 0.8;
-}
-}
-
-.navbar-logo-large {
-
-    background-image: url("../images/moonbeamlogo-transparent.png");
-    background-size: contain;
-    height: 12em;
-    width: 12em;
-    background-repeat: no-repeat;
-}
 
 
 /*------------------------------------------------------------------------------------------------------about page*/
