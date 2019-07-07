@@ -286,8 +286,6 @@ body {
 }
 
 
-
-
 /*------------------------------------------------------------------------------------------------------about page*/
 
 .aboutpic {
@@ -415,20 +413,18 @@ aside {
 article {
     width: 80%;
     float: right;
-
-        display: inline-block;
+    display: inline-block;
 }
 
 .aside-section {
     border-bottom: 1px solid gray;
-    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     margin-left: 2em;
     margin-right: 1em;
 }
 
 .shopfilterheading {
     font-family: 'DM Serif Display', serif;
-
 }
 
 @media only screen and (max-width: 576px) {
