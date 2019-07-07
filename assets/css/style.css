@@ -345,15 +345,9 @@ background-size: cover;
 /*---------------------------------------------------------------------------------------------------------contact page*/
 
 
-.form-group {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-}
-
 .contact-heading {
     margin-bottom: 1em;
+    margin-top: 1em;
     width: 100%;
     text-align: center;
     margin-left: auto;
@@ -371,6 +365,7 @@ background-size: cover;
 
 .form-submit-button {
     margin-top: 40px;
+    text-align: center;
 }
 
 #inputtext {
@@ -384,12 +379,6 @@ background-size: cover;
     border-color: pink;
 }
 
-@media only screen and (max-width: 576px) {
-  .contact-heading {
-    margin-top: 2em;
-
-  }
-}
 
 
 /*-----------------------------------------------------------------------------------------shop*/
