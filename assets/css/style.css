@@ -237,11 +237,11 @@ body {
 }
 
 .firstbannerpic {
- -webkit-animation: bannermove 30s linear infinite;
-    -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-      -o-animation: bannermove 30s linear infinite;
-         animation: bannermove 30s linear infinite;
+ -webkit-animation: bannermove 40s linear infinite;
+    -moz-animation: bannermove 40s linear infinite;
+     -ms-animation: bannermove 40s linear infinite;
+      -o-animation: bannermove 40s linear infinite;
+         animation: bannermove 40s linear infinite;
 }
 
 @keyframes "bannermove" {
@@ -283,12 +283,6 @@ body {
    margin-left: -2125px;
  }
 
-}
-
-@media only screen and (max-width: 767px) {
-  .photobanner {
-    display: none;
-  }
 }
 
 
