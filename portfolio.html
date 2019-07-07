@@ -43,8 +43,9 @@
 
 <div class="container mt-5">
   <div class="row">
-    <div class="d-col-sm-3 d-none d-sm-inline">
-      <div class="aside-section"><h2 class="shopfilterheading">Filter by</h2></div>
+    <div class="d-col-sm-3 ">
+      
+<div class="aside-section"><h2 class="shopfilterheading">Filter by</h2></div>
 
 
 <div class="aside-section">
@@ -94,7 +95,24 @@
     </div>
     
     <div class="col-12 col-sm-9">
+      
+    <div class="sortby mb-4 mr-4 ml-auto">
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Sort By
+  </button>
+      <div class="dropdown-menu">
+        <button class="dropdown-item" type="button">Price (low to high)</button>
+        <button class="dropdown-item" type="button">Price (high to low)</button>
+        <button class="dropdown-item" type="button">Name (A-Z)</button>
+        <button class="dropdown-item" type="button">Name (Z-A)</button>
+      </div>
+    </div>
+  </div>
+  
       <div class="row">
+        
       <div class="col-6 col-sm-3 shop-item">
         <img class="shop-item1" src="./assets/images/shopitems/item1.jpg"></img>
         <div class="overlay">
@@ -277,7 +295,7 @@
 
   <div class="filtertest">
 
-    <div class="filterbutton" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+    <div class="filterbutton d-inline d-sm-none" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
       <div class="aside-section">
         <h2 class="shopfilterheading">Filter by</h2>
       </div>
@@ -339,8 +357,8 @@
     Sort By
   </button>
       <div class="dropdown-menu">
-        <button class="dropdown-item" type="button">Price (low to high)</button>
-        <button class="dropdown-item" type="button">Price (high to low)</button>
+        <button class="dropdown-item" type="button">Price (low-high)</button>
+        <button class="dropdown-item" type="button">Price (high-low)</button>
         <button class="dropdown-item" type="button">Name (A-Z)</button>
         <button class="dropdown-item" type="button">Name (Z-A)</button>
       </div>

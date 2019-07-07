@@ -392,7 +392,6 @@ background-size: cover;
 }
 
 
-
 /*-----------------------------------------------------------------------------------------shop*/
 
 
@@ -466,38 +465,38 @@ margin-left: -4em;
 }
 
 .sortby {
-    margin-right: 6em;
     text-align: right;
-    margin-left: auto;
-    margin-bottom: 2em;
 }
 
 @media only screen and (max-width: 576px) {
   .sortby {
-    margin-top: 6em;
+    margin-top: 4.5em;
     margin-bottom: 1em;
-        margin-right: 0em;
+        margin-right: 1em;
+        margin-left: auto;
         display: inline-block;
-        margin-left: -4em;
+        z-index: 5;
         position: absolute;
   }
 }
 
-/*------------------------------------------------------------------------------shop small screen filter*/
-
-
 .filtertest {
-    margin-left: -5em;
+    margin-left: -4.5em;
     margin-top: 4em;
-    margin-right: 7em;
+    margin-right: auto;
     display: inline-block;
-
 }
+
+/*---------------------------------------------------------------------------
+
 @media only screen and (min-width: 576px) {
   .filtertest {
         display:none;
+        
+        
               }
 } 
+---shop small screen filter*/
 
 /*------------------------------------------------------------------------------shop hoverstuff*/
 
