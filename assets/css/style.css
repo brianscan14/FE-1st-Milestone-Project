@@ -394,31 +394,9 @@ background-size: cover;
 
 /*-----------------------------------------------------------------------------------------shop*/
 
-
-aside {
-    width: 20%;
-    background-color: #fff;
-    display: inline-block;
-    float: left;
-
-}
-
-@media only screen and (max-width: 576px) {
- aside {
-    display: none;
-  }
-}
-
-article {
-    width: 80%;
-    float: right;
-    display: inline-block;
-}
-
 .aside-section {
     border-bottom: 1px solid gray;
     margin-bottom: 1.5em;
-    margin-left: 2em;
     margin-right: 1em;
 }
 
@@ -426,30 +404,12 @@ article {
     font-family: 'DM Serif Display', serif;
 }
 
-@media only screen and (max-width: 576px) {
-  .shopfront {
-margin-left: -4em;
-  }
-}
-
-.shopfront {
-    padding: 1em;
-    margin-right: 1em;
-}
-
 .shop-item {
     width: 10em;
     height: 15em;
     margin-bottom: 1em;
-    padding-right: 2em;
-    padding-left: 2em;
-}
-
-@media only screen and (max-width: 576px) {
-  .shop-item {
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-  }
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 .shop-item1 {
@@ -461,7 +421,6 @@ margin-left: -4em;
     text-align: center;
     width: 100%;
     padding-top: 0.5em;
-    
 }
 
 .sortby {
@@ -470,36 +429,12 @@ margin-left: -4em;
 
 @media only screen and (max-width: 576px) {
   .sortby {
-    margin-top: 4.5em;
-    margin-bottom: 1em;
-        margin-right: 1em;
-        margin-left: auto;
-        display: inline-block;
-        z-index: 5;
-        position: absolute;
+    margin-top: -3.5em;
   }
 }
 
-.filtertest {
-    margin-left: -4.5em;
-    margin-top: 4em;
-    margin-right: auto;
-    display: inline-block;
-}
-
-/*---------------------------------------------------------------------------
-
-@media only screen and (min-width: 576px) {
-  .filtertest {
-        display:none;
-        
-        
-              }
-} 
----shop small screen filter*/
 
 /*------------------------------------------------------------------------------shop hoverstuff*/
-
 
 .overlay {
   position: absolute;
