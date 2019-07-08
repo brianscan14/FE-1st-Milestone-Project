@@ -423,6 +423,12 @@ background-size: cover;
   }
 }
 
+.modalbutton {
+    margin-top: -3em;
+    margin-left: 1em;
+    
+}
+
 
 /*------------------------------------------------------------------------------shop hoverstuff*/
 
