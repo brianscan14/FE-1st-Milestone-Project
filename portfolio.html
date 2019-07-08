@@ -48,15 +48,93 @@
     
     <div class="d-col-sm-3 ">
       
-  <div class="filtertest">
+<div class="filter-modal-small-screen">
+    
+  <button type="button" class="btn btn-primary d-sm-none modalbutton" data-toggle="modal" data-target="#exampleModal">
+  Filter
+  </button>
 
-    <div class="filterbutton" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      
+      <div class="modal-body">
+      
+            <div class="aside-section">
+        <h2 class="shopfilterheading">Filter by</h2>
+      </div>
+
+      <div class="aside-section">
+        <p>
+          <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Category
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div><a href="#">Origami</a></div>
+          <div><a href="#">Winter</a></div>
+          <div><a href="#">Summer</a></div>
+          <div><a href="#">Gift Wrapping</a></div>
+        </div>
+      </div>
+
+      <div class="aside-section">
+        <p>
+          <a class="" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+          Price
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample2">
+          <div><a href="#">0-€5</a></div>
+          <div><a href="#">5-10€</a></div>
+          <div><a href="#">10-20€</a></div>
+          <div><a href="#">20€+</a></div>
+
+        </div>
+
+      </div>
+
+      <div class="aside-section">
+        <p>
+          <a class="" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+          Occasion
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample3">
+          <div><a href="#">Birthday</a></div>
+          <div><a href="#">Anniversay</a></div>
+          <div><a href="#">Xmas gift sets</a></div>
+        </div>
+
+      </div>
+
+      
+      </div>
+      
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+</div>    
+      
+  <div class="filtertest d-none d-sm-inline">
+
       <div class="aside-section">
         <h2 class="shopfilterheading">Filter by</h2>
       </div>
-    </div>
-
-    <div class="collapse" id="collapseExample6">
 
       <div class="aside-section">
         <p>
@@ -102,7 +180,6 @@
 
       </div>
 
-    </div>
   </div>      
       
 
