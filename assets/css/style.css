@@ -3,6 +3,17 @@ body {
 }
 
 
+a {
+     color: inherit;
+     text-decoration: none;
+}
+
+a:hover {
+     color: #bc772a;
+     text-decoration: none;
+}
+
+
 /*-----------------------------------------------------------------------------------------------------Nav nar*/
 
 
@@ -66,23 +77,21 @@ body {
 }
 
 .nojobbackground2 {
-    background-color: #ff9344;
-    background-image: url("https://i.ytimg.com/vi/XyB8GuwWMIs/maxresdefault.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f3f1e0;
     height: 15em;
     margin-left: 2.5em;
     margin-right: auto;
+    border: solid;
+    border-color: #B6C9B3;
 }
 
 .ordernowbackground1 {
-    background-color: #adf1f0;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF4tOdD5G7xMao6fnyYk41UEF843OMnBIeMGyF0L1Ur5OcUEVh");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #F1DBCB;
     height: 15em;
     margin-right: 2.5em;
     margin-left: auto;
+    border: solid;
+    border-color: #776062;
 }
 
 .middlebit {
@@ -111,6 +120,7 @@ body {
     text-align: center;
     padding-top: 1em;
     border: double;
+    border-color: #776062;
     font-family: 'Courgette', cursive;
 }
 
@@ -118,6 +128,7 @@ body {
     text-align: center;
     padding-top: 1em;
     border: double;
+    border-color: #B6C9B3;
 }
 
 .shopcollectionhome {
@@ -149,6 +160,7 @@ body {
     border-style: solid;
     border-width: medium;
     z-index: 2;
+    border-color: #E5A09E;
 }
 
 .bealtaine {
@@ -164,6 +176,7 @@ body {
     margin-top: -5em;
     border-style: solid;
     border-width: medium;
+    border-color: #F1DBCB;
 }
 
 .yuleblog {
@@ -174,6 +187,7 @@ body {
     z-index: 1;
     border-style: solid;
     border-width: medium;
+        border-color: #878F7D;
 }
 
 .yuleblogborder1 {
@@ -182,6 +196,7 @@ body {
     margin-right: 1.5em;
     margin-top: -4.5em;
     z-index: 2;
+
 }
 
 .yulebloglink {
@@ -300,7 +315,6 @@ body {
     background-image: url("https://www.stockphotobucket.com/wp-content/uploads/2018/11/xcbw03rnanq.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0;
 }
 
 .test-home-right {
@@ -311,17 +325,50 @@ body {
     opacity: 0.6;
 }
 
-
-/*----------------testing home page------------*/
 .testhomepic {
     width: 13.5em;
     height: 15em;
     opacity: 0.5;
-    margin-left: 9.5em;
+    margin-left: 9.8em;
     margin-right: auto;
     margin-top: 4em;
 }
 
+.cursive-heading {
+    font-family: 'Sacramento', cursive;
+    color: #ECB2B0;
+    margin-top: 5em;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home-main-banner {
+    font-size: 5em;
+    color: #32342E;
+}
+
+.buttonpink {
+    background-color: #F1DBCB;
+    color: #32342E;
+}
+
+.buttonpink:hover {
+    background-color: #ECB2B0;
+}
+
+.buttonbrown {
+    background-color: #776062;
+    color: #F1DBCB;
+    border-color: #F1DBCB;
+}
+
+.buttonbrown:hover {
+    background-color: #ECB2B0;
+    border-color: #F1DBCB;    
+    
+}
 
 /*------------------------------------------------------------------------------------------------------about page*/
 
@@ -343,14 +390,14 @@ body {
 }
 
 .about-section {
-background-color: #d6efed;
-background-image: url("../images/moonbeamlogo-transparent.png");
-background-size: contain;
-background-repeat: no-repeat;
+    background-color: #d6efed;
+    background-image: url("../images/moonbeamlogo-transparent.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .about-shop-link {
-    color: #fd33ff;
+    color: #E5A09E;
     text-decoration: none;
 }
 
@@ -503,15 +550,6 @@ background-repeat: no-repeat;
 
 /*----links coloring------------------------------------------------------------------------*/
 
-a {
-     color: inherit;
-     text-decoration: none;
-}
-
-a:hover {
-     color: #bc772a;
-     text-decoration: none;
-}
 
 
 
