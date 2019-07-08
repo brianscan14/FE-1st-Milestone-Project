@@ -36,10 +36,14 @@ body {
     background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 579px) {
 .navbar-nav {
-    max-width: 50em;
+    margin-right: 10em;
+    margin-left: 10em;
+    padding-right: 1em;
+    padding-left: 1em;
 }
-
+}
 
 /*------------------------------------------------------------------------------------------article/home page*/
 
