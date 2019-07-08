@@ -36,6 +36,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.navbar-nav {
+    max-width: 50em;
+}
+
 
 /*------------------------------------------------------------------------------------------article/home page*/
 
