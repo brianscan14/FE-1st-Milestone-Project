@@ -29,7 +29,6 @@ body {
 }
 
 .navbar-logo-large {
-
     background-image: url("../images/moonbeamlogo-transparent.png");
     background-size: contain;
     height: 12em;
@@ -37,6 +36,9 @@ body {
     background-repeat: no-repeat;
 }
 
+.navbar-nav {
+    max-width: 35rem;
+}
 
 
 /*------------------------------------------------------------------------------------------article/home page*/
