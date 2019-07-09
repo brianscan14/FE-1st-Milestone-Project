@@ -524,7 +524,7 @@ background-color: #F0EBE9;
   transition: .5s ease;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 1em;
+  border-radius: 5px;
   opacity: 0.8;
   z-index: 21;
 }
