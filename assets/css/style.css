@@ -79,12 +79,12 @@ a:hover {
 }
 
 .nojobbackground2 {
-    background-color: #f3f1e0;
+    background-color: #ECB2B0;
     height: 15em;
     margin-left: 2.5em;
     margin-right: auto;
     border: solid;
-    border-color: #B6C9B3;
+    border-color: #EFD5C3;
 }
 
 .ordernowbackground1 {
@@ -98,7 +98,7 @@ a:hover {
 }
 
 .middlebit1 {
-    background-color: #EFD5C3;
+    background-color: #fafafa;
     height: 7.5em;
     width: 7.5em;
     margin-top: 3.75em;
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .middlebit2 {
-    background-color: #fafafa3;
+    background-color: #fafafa;
     height: 7.5em;
     width: 7.5em;
     margin-top: 3.75em;
@@ -139,7 +139,8 @@ a:hover {
     text-align: center;
     padding-top: 1em;
     border: double;
-    border-color: #B6C9B3;
+    border-color: #EFD5C3;
+    color: #664E4C;
 }
 
 .shopcollectionhome {
@@ -171,7 +172,7 @@ a:hover {
     border-style: solid;
     border-width: medium;
     z-index: 2;
-    border-color: #E5A09E;
+    border-color: #664E4C;
 }
 
 .bealtaine {
@@ -187,7 +188,7 @@ a:hover {
     margin-top: -5em;
     border-style: solid;
     border-width: medium;
-    border-color: #F1DBCB;
+    border-color: #ECB2B0;
 }
 
 .yuleblog {
@@ -197,8 +198,8 @@ a:hover {
     margin-right: auto;
     z-index: 1;
     border-style: solid;
-    border-width: medium;
-        border-color: #878F7D;
+    border-width: 5px;
+    border-color: #EFD5C3;
 }
 
 .yuleblogborder1 {
