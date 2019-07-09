@@ -1,5 +1,7 @@
 body {
         font-family: 'PT Serif', serif;
+        background-color: #F0EBE9;
+
 }
 
 
@@ -319,7 +321,7 @@ a:hover {
 
 .test-home-right {
     height: 40em;
-    background-color: #878F7D;
+    background-color: #664E4C;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.6;
@@ -336,9 +338,11 @@ a:hover {
 
 .cursive-heading {
     font-family: 'Sacramento', cursive;
-    color: #ECB2B0;
+    color: black;
     margin-top: 5em;
+    opacity: 0.7;
 }
+
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -346,12 +350,12 @@ a:hover {
 
 .home-main-banner {
     font-size: 5em;
-    color: #32342E;
+    color: #413231;
 }
 
 .buttonpink {
-    background-color: #F1DBCB;
-    color: #32342E;
+    background-color: #EFD5C3;
+    color: #77333A;
 }
 
 .buttonpink:hover {
