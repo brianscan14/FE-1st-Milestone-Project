@@ -386,24 +386,22 @@ background-color: #F0EBE9;
 
 .aboutpic {
     width: 100%;
-    height: 28em;
+    height: 35em;
 }
 
-@media only screen and (max-width: 576px) {
-.about-writing {
-    margin-top: 0.5em;
-}
+.about-title {
+    margin-top: 2em;
 }
 
-@media only screen and (min-width: 579px) {
-.about-writing {
-    margin-top: 2.5em;
-}
-}
 
 .about-section {
-    background-color: #d6efed;
-    background-image: url("../images/moonbeamlogo-transparent.png");
+    background-color: #664E4C;
+    height: 35em;
+    
+    /*----------------------- if i can photoshop the white background out
+    background-image: url("../images/moonbeambrown.jpg");
+
+    */
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -418,6 +416,7 @@ background-color: #F0EBE9;
     font-size: 25px;
     text-decoration: none;
     color: inherit;
+    padding-bottom: 1em;
 }
 
 .btn-sub {
