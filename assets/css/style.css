@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-     color: #bc772a;
+     color: #FFD4CA;
      text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ a:hover {
 @media only screen and (min-width: 579px) {
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
 
-    color: black;
+    color: #664E4C;
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     text-align: center;
@@ -34,7 +34,7 @@ a:hover {
 @media only screen and (min-width: 579px) {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
 
-    color: #bc772a;
+    color: #FFD4CA;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
     opacity: 0.8;
@@ -88,16 +88,25 @@ a:hover {
 }
 
 .ordernowbackground1 {
-    background-color: #F1DBCB;
+    background-color: #664E4C;
     height: 15em;
     margin-right: 2.5em;
     margin-left: auto;
     border: solid;
-    border-color: #776062;
+    border-color: #ECB2B0;
+    opacity: 0.9;
 }
 
-.middlebit {
-    background-color: #fff;
+.middlebit1 {
+    background-color: #EFD5C3;
+    height: 7.5em;
+    width: 7.5em;
+    margin-top: 3.75em;
+    margin-bottom: 3.75em;
+}
+
+.middlebit2 {
+    background-color: #fafafa3;
     height: 7.5em;
     width: 7.5em;
     margin-top: 3.75em;
@@ -122,7 +131,7 @@ a:hover {
     text-align: center;
     padding-top: 1em;
     border: double;
-    border-color: #776062;
+    border-color: #ECB2B0;
     font-family: 'Courgette', cursive;
 }
 
@@ -182,7 +191,7 @@ a:hover {
 }
 
 .yuleblog {
-    background-color: #fafafa;
+    background-color: #F0EBE9;
     height: 25em;
     margin-left: 2.5em;
     margin-right: auto;
@@ -233,12 +242,76 @@ a:hover {
 }
 }
 
+/*----------------testing home page------------*/
+
+.test-home-left {
+    height: 40em;
+    background-image: url("https://www.stockphotobucket.com/wp-content/uploads/2018/11/xcbw03rnanq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test-home-right {
+    height: 40em;
+    background-color: #664E4C;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.testhomepic {
+    width: 13.5em;
+    height: 15em;
+    opacity: 0.5;
+    margin-left: 9.8em;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+.cursive-heading {
+    font-family: 'Sacramento', cursive;
+    color: black;
+    margin-top: 5em;
+    opacity: 0.7;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home-main-banner {
+    font-size: 5em;
+    color: #413231;
+}
+
+.buttonpink {
+    background-color: #EFD5C3;
+    color: #664E4C;
+}
+
+.buttonpink:hover {
+    background-color: #ECB2B0;
+}
+
+.buttonbrown {
+    background-color: #776062;
+    color: #F1DBCB;
+    border-color: #F1DBCB;
+}
+
+.buttonbrown:hover {
+    background-color: #ECB2B0;
+    border-color: #F1DBCB;    
+    
+}
+
 /*---------------------------------------------------------------------------------------------bottom insta photos*/
 
 #instapiccontainer {
 	width: 100%;
 	overflow: hidden;
-	background: #fff;
+background-color: #F0EBE9;
 }
 
 .photobanner {
@@ -310,69 +383,7 @@ a:hover {
 
 
 
-/*----------------testing home page------------*/
 
-.test-home-left {
-    height: 40em;
-    background-image: url("https://www.stockphotobucket.com/wp-content/uploads/2018/11/xcbw03rnanq.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.test-home-right {
-    height: 40em;
-    background-color: #664E4C;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.6;
-}
-
-.testhomepic {
-    width: 13.5em;
-    height: 15em;
-    opacity: 0.5;
-    margin-left: 9.8em;
-    margin-right: auto;
-    margin-top: 4em;
-}
-
-.cursive-heading {
-    font-family: 'Sacramento', cursive;
-    color: black;
-    margin-top: 5em;
-    opacity: 0.7;
-}
-
-.container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.home-main-banner {
-    font-size: 5em;
-    color: #413231;
-}
-
-.buttonpink {
-    background-color: #EFD5C3;
-    color: #77333A;
-}
-
-.buttonpink:hover {
-    background-color: #ECB2B0;
-}
-
-.buttonbrown {
-    background-color: #776062;
-    color: #F1DBCB;
-    border-color: #F1DBCB;
-}
-
-.buttonbrown:hover {
-    background-color: #ECB2B0;
-    border-color: #F1DBCB;    
-    
-}
 
 /*------------------------------------------------------------------------------------------------------about page*/
 
@@ -563,7 +574,7 @@ a:hover {
 
 .footer-main-section {
     width: 100%;
-    background-color: #fff;
+    background-color: #F0EBE9;
     text-align: center;
     vertical-align: middle;
     margin-top: 1.5em;
@@ -571,18 +582,17 @@ a:hover {
     margin-right: auto;
     margin-bottom: 1em;
     display: block;
-
 }
 
 
 .footer-icons a {
     padding-left: 0.5em;
     padding-right: 0.5em;
-    color: #bc772a;
+    color: #664E4C;
 }
 
 .footer-icons a:hover {
-    color: #a0a6ad;
+    color: #FFD4CA;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
           
