@@ -446,7 +446,7 @@ background-color: #F0EBE9;
     margin-left: auto;
     margin-right: auto;
     font-family: 'DM Serif Display', serif;
-    color: pink;
+    color: #664E4C;;
 }
 
 .headingborder {
@@ -481,6 +481,7 @@ background-color: #F0EBE9;
     margin-bottom: 1.5em;
     margin-right: 1em;
     margin-left: 1em;
+    color: #664E4C;
 }
 
 .shopfilterheading {
@@ -493,17 +494,29 @@ background-color: #F0EBE9;
     margin-bottom: 1em;
     padding-right: 1em;
     padding-left: 1em;
+
 }
 
 .shop-item1 {
     width: 100%;
-    height: 80%
+    height: 80%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFD4CA;
+    z-index: 10;
 }
 
 .shop-photo-title {
     text-align: center;
     width: 100%;
     padding-top: 0.5em;
+        color: #664E4C;
+}
+
+.dropdown-toggle{
+    background-color: #F0EBE9;
+    border-color: #664E4C;
+    color: #664E4C;
 }
 
 .sortby {
@@ -514,6 +527,11 @@ background-color: #F0EBE9;
   .sortby {
     margin-top: -3.5em;
   }
+}
+
+.dropdown-menu {
+    margin-left: -2.5em;
+    background-color: #F0EBE9;
 }
 
 
@@ -534,17 +552,18 @@ background-color: #F0EBE9;
   margin-right: auto;
   border-radius: 1em;
   opacity: 0.8;
+  z-index: 21;
 }
 
 .shop-item:hover .overlay {
   bottom: 3em;
   height: 20%;
-  color: pink;
+  color: #ecb2b0;
   text-decoration: none;
 }
 
 .overlaytext {
-  color: pink;
+  color: #ecb2b0;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -553,6 +572,7 @@ background-color: #F0EBE9;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  z-index: 20;
 }
 
 /*----links coloring------------------------------------------------------------------------*/
