@@ -1,25 +1,24 @@
 body {
-        font-family: 'PT Serif', serif;
-        background-color: #F0EBE9;
-
+    font-family: 'PT Serif', serif;
+    background-color: #F0EBE9;
 }
 
 
 a {
-     color: inherit;
-     text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 a:hover {
-     color: #FFD4CA;
-     text-decoration: none;
+    color: #FFD4CA;
+    text-decoration: none;
 }
 
 
 /*-----------------------------------------------------------------------------------------------------Nav nar*/
 
 .navbar-nav {
-        color: #664E4C;
+    color: #664E4C;
 }
 
 .navbar-collapse {
@@ -240,7 +239,7 @@ a:hover {
 }
 }
 
-/*----------------testing home page------------*/
+/*---------------- home page top hero banner------------*/
 
 .test-home-left {
     height: 40em;
@@ -283,27 +282,7 @@ a:hover {
     color: #413231;
 }
 
-.buttonpink {
-    background-color: #EFD5C3;
-    color: #664E4C;
-    border-color: #664E4C;
-}
 
-.buttonpink:hover {
-    background-color: #ECB2B0;
-}
-
-.buttonbrown {
-    background-color: #776062;
-    color: #F1DBCB;
-    border-color: #F1DBCB;
-}
-
-.buttonbrown:hover {
-    background-color: #ECB2B0;
-    border-color: #F1DBCB;    
-    
-}
 
 /*---------------------------------------------------------------------------------------------bottom insta photos*/
 
@@ -391,11 +370,6 @@ background-color: #F0EBE9;
 .about-section {
     background-color: #664E4C;
     height: 35em;
-    
-    /*----------------------- if i can photoshop the white background out
-    background-image: url("../images/moonbeambrown.jpg");
-
-    */
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -423,14 +397,14 @@ background-color: #F0EBE9;
 }
 
 .form-control {
-        background-color: #F0EBE9;
-        border-color: #664E4C;
+    background-color: #F0EBE9;
+    border-color: #664E4C;
 }
 
 .form-control:focus {
-        background-color: #F0EBE9;
-        border-color: #EFD5C3;
-        box-shadow: 0 0 0 0.2rem #efd5c3ad;
+    background-color: #F0EBE9;
+    border-color: #EFD5C3;
+    box-shadow: 0 0 0 0.2rem #efd5c3ad;
 }
 
 /*---------------------------------------------------------------------------------------------------------contact page*/
@@ -456,7 +430,6 @@ background-color: #F0EBE9;
 
 .form-submit-button {
     margin-top: 40px;
-    text-align: center;
 }
 
 #inputtext {
@@ -464,12 +437,6 @@ background-color: #F0EBE9;
     resize: none;
     padding-top: 0.5em;
 }
-
-.contactsendbutton {
-    color: pink;
-    border-color: pink;
-}
-
 
 
 /*-----------------------------------------------------------------------------------------shop*/
@@ -492,7 +459,6 @@ background-color: #F0EBE9;
     margin-bottom: 1em;
     padding-right: 1em;
     padding-left: 1em;
-
 }
 
 .shop-item1 {
@@ -508,7 +474,7 @@ background-color: #F0EBE9;
     text-align: center;
     width: 100%;
     padding-top: 0.5em;
-        color: #664E4C;
+    color: #664E4C;
 }
 
 .dropdown-toggle{
@@ -539,9 +505,9 @@ background-color: #F0EBE9;
 }
 
 .buttonpink2:focus {
-        background-color: #F0EBE9;
-        border-color: #EFD5C3;
-        box-shadow: 0 0 0 0.2rem #efd5c3ad;
+    background-color: #F0EBE9;
+    border-color: #EFD5C3;
+    box-shadow: 0 0 0 0.2rem #efd5c3ad;
 }
 
 /*------------------------------------------------------------------------------shop hoverstuff*/
@@ -586,7 +552,27 @@ background-color: #F0EBE9;
 /*----links coloring------------------------------------------------------------------------*/
 
 
+.buttonpink {
+    background-color: #EFD5C3;
+    color: #664E4C;
+    border-color: #664E4C;
+}
 
+.buttonpink:hover {
+    background-color: #ECB2B0;
+}
+
+.buttonbrown {
+    background-color: #776062;
+    color: #F1DBCB;
+    border-color: #F1DBCB;
+}
+
+.buttonbrown:hover {
+    background-color: #ECB2B0;
+    border-color: #F1DBCB;    
+    
+}
 
 
 /*----------------------------------------------------------------------------------footer*/
