@@ -18,6 +18,9 @@ a:hover {
 
 /*-----------------------------------------------------------------------------------------------------Nav nar*/
 
+.navbar-nav {
+        color: #664E4C;
+}
 
 @media only screen and (min-width: 579px) {
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
@@ -64,18 +67,6 @@ a:hover {
     width: 100%;
     height: 25em;
     opacity: 0.8;
-}
-
-.brownmoonbeampic {
-    width: 20em;
-    height: 15em;
-}
-
-.brownpicshopnow {
-    width: 10em;
-    background-color: #fafafa;
-    color: #bc772a;
-    border-color: #bc772a;
 }
 
 .nojobbackground2 {
@@ -418,6 +409,7 @@ background-color: #F0EBE9;
 
 .about-paragraph {
     color: #EFD5C3;
+    width: 90%;
 }
 
 .about-title {
@@ -534,7 +526,17 @@ background-color: #F0EBE9;
     background-color: #F0EBE9;
 }
 
+.buttonpink2 {
+    background-color: #F0EBE9;
+    color: #664E4C;
+    border-color: #664E4C;
+}
 
+.buttonpink2:focus {
+        background-color: #F0EBE9;
+        border-color: #EFD5C3;
+        box-shadow: 0 0 0 0.2rem #efd5c3ad;
+}
 
 /*------------------------------------------------------------------------------shop hoverstuff*/
 
