@@ -289,6 +289,7 @@ a:hover {
 .buttonpink {
     background-color: #EFD5C3;
     color: #664E4C;
+    border-color: #664E4C;
 }
 
 .buttonpink:hover {
@@ -389,10 +390,6 @@ background-color: #F0EBE9;
     height: 35em;
 }
 
-.about-title {
-    margin-top: 2em;
-}
-
 
 .about-section {
     background-color: #664E4C;
@@ -419,25 +416,24 @@ background-color: #F0EBE9;
     padding-bottom: 1em;
 }
 
-.btn-sub {
-    background-color: #fafafa;
-    color: #fd33ff;
-    border-color: #fd33ff;
+.about-paragraph {
+    color: #EFD5C3;
 }
 
-@media only screen and (max-width: 576px) {
-  .about-paragraph {
-    width: 90%;
-  }
+.about-title {
+    color: #FFD4CA;
 }
 
-@media only screen and (min-width: 579px) {
-  .about-paragraph {
-    width: 95%;
-  }
+.form-control {
+        background-color: #F0EBE9;
+        border-color: #664E4C;
 }
 
-
+.form-control:focus {
+        background-color: #F0EBE9;
+        border-color: #EFD5C3;
+        box-shadow: 0 0 0 0.2rem #efd5c3ad;
+}
 
 /*---------------------------------------------------------------------------------------------------------contact page*/
 
