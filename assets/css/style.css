@@ -512,20 +512,22 @@ background-color: #F0EBE9;
 /*------------------------------------------------------------------------------shop hoverstuff*/
 
 .overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
+position: absolute; 
+  bottom: 0; 
+left: 0;
   right: 0;
-  background-color: #fafafa;
   overflow: hidden;
-  width: 60%;
-  height:0;
+background-color: #fafafa;
+  color: #f1f1f1; 
+  width: 86%;
   transition: .5s ease;
-  margin-left: auto;
+margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
-  opacity: 0.8;
-  z-index: 21;
+  opacity:0;
+  color: white;
+  height: 20%;
+  margin-bottom: 3px;
+  text-align: center;
 }
 
 .shop-item:hover .overlay {
@@ -533,19 +535,21 @@ background-color: #F0EBE9;
   height: 20%;
   color: #ecb2b0;
   text-decoration: none;
+  opacity: 0.8;
 }
 
 .overlaytext {
-  color: #ecb2b0;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: 20;
+    color: #ecb2b0;
+    font-size: 20px;
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 769px) {
+  .overlay {
+  width: 77%;
+  }
 }
 
 /*----links coloring------------------------------------------------------------------------*/
