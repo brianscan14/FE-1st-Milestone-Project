@@ -140,7 +140,7 @@ a:hover {
 }
 
 .shopcollectionhome {
-    font-family: 'Sacramento', cursive;
+
     height: 10em;
     margin-right: 2.5em;
     margin-left: auto;
@@ -279,6 +279,7 @@ a:hover {
 .home-main-banner {
     font-size: 5em;
     color: #413231;
+    font-family: 'DM Serif Display', serif;
 }
 
 
@@ -305,8 +306,7 @@ background-color: #F0EBE9;
 
 .instapicsheading {
     padding-left: 10px;
-    font-family: 'Barriecito', cursive;
-
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .firstbannerpic {
@@ -379,7 +379,7 @@ background-color: #F0EBE9;
 }
 
 .about-work-link {
-    font-family: 'Aguafina Script', cursive;
+    font-family: 'Sacramento', cursive;
     font-size: 25px;
     text-decoration: none;
     color: inherit;
@@ -446,10 +446,6 @@ background-color: #F0EBE9;
     margin-right: 1em;
     margin-left: 1em;
     color: #664E4C;
-}
-
-.shopfilterheading {
-    font-family: 'DM Serif Display', serif;
 }
 
 .shop-item {
