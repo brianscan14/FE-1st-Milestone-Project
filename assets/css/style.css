@@ -486,6 +486,7 @@ a:hover {
     width: 100%;
     padding-top: 0.5em;
     color: #664E4C;
+    text-overflow: ellipsis;
 }
 
 .dropdown-toggle{
@@ -496,6 +497,12 @@ a:hover {
 
 .sortby {
     text-align: right;
+}
+
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #EFD5C3;
 }
 
 @media only screen and (max-width: 576px) {
@@ -524,30 +531,29 @@ a:hover {
 /*------------------------------------------------------------------------------shop hoverstuff*/
 
 .overlay {
-position: absolute; 
-  bottom: 0; 
-left: 0;
-  right: 0;
-  overflow: hidden;
-background-color: #fafafa;
-  color: #f1f1f1; 
-  width: 86%;
-  transition: .5s ease;
-margin-left: auto;
-  margin-right: auto;
-  opacity:0;
-  color: white;
-  height: 20%;
-  margin-bottom: 3px;
-  text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    width: 86%;
+    transition: .5s ease;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:0;
+    height: 20%;
+    margin-bottom: 3px;
+    text-align: center;
 }
 
 .shop-item:hover .overlay {
-  bottom: 3em;
-  height: 20%;
-  color: #ecb2b0;
-  text-decoration: none;
-  opacity: 0.8;
+    bottom: 3em;
+    height: 20%;
+    color: #ecb2b0;
+    text-decoration: none;
+    opacity: 0.8;
+    
 }
 
 .overlaytext {
@@ -560,7 +566,7 @@ margin-left: auto;
 
 @media only screen and (max-width: 769px) {
   .overlay {
-  width: 77%;
+    width: 77%;
   }
 }
 
