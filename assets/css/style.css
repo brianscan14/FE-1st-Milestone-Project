@@ -1,8 +1,9 @@
+/*------------------------general links coloring and default body text--------------------------------------*/
+
 body {
     font-family: 'PT Serif', serif;
     background-color: #F0EBE9;
 }
-
 
 a {
     color: inherit;
@@ -17,10 +18,6 @@ a:hover {
 
 /*-----------------------------------------------------------------------------------------------------Nav nar*/
 
-.navbar-nav {
-    color: #664E4C;
-}
-
 .navbar-collapse {
     width: 60%;
     margin-left: auto;
@@ -29,7 +26,6 @@ a:hover {
 
 @media only screen and (min-width: 579px) {
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-
     color: #664E4C;
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
@@ -41,7 +37,6 @@ a:hover {
 
 @media only screen and (min-width: 579px) {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-
     color: #FFD4CA;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
@@ -57,14 +52,6 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-@media only screen and (min-width: 579px) {
-.navbar-nav {
-    margin-right: 10em;
-    margin-left: 10em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-}
 
 /*------------------------------------------------------------------------------------------home page*/
 
@@ -93,15 +80,7 @@ a:hover {
     opacity: 0.9;
 }
 
-.middlebit1 {
-    background-color: #fafafa;
-    height: 7.5em;
-    width: 7.5em;
-    margin-top: 3.75em;
-    margin-bottom: 3.75em;
-}
-
-.middlebit2 {
+.middlebit {
     background-color: #fafafa;
     height: 7.5em;
     width: 7.5em;
@@ -110,14 +89,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 767px) {
-  .ordernowbackground1 {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .nojobbackground2 {
+  .linkbuttonbackground {
     margin-left: auto;
     margin-right: auto;
   }
@@ -140,7 +112,6 @@ a:hover {
 }
 
 .shopcollectionhome {
-
     height: 10em;
     margin-right: 2.5em;
     margin-left: auto;
@@ -203,7 +174,6 @@ a:hover {
     margin-right: 1.5em;
     margin-top: -4.5em;
     z-index: 2;
-
 }
 
 .yulebloglink {
@@ -215,7 +185,7 @@ a:hover {
 @media only screen and (max-width: 767px) {
 .smallhomescreen {
     margin-left: auto;
-    margin-right: 2.5em;
+    margin-right: 2.6em;
     margin-bottom: 3em;
 }
 }
@@ -225,7 +195,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: -1.5em;
-    margin-bottom: 5em;
+    margin-bottom: 7em;
     text-align: center;
 }
 }
@@ -426,12 +396,8 @@ a:hover {
 
 
 .contact-heading {
-    margin-bottom: 1em;
-    margin-top: 1em;
     width: 100%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     font-family: 'DM Serif Display', serif;
     color: #664E4C;;
 }
@@ -473,7 +439,6 @@ a:hover {
     border-style: solid;
     border-width: 3px;
     border-color: #FFD4CA;
-    z-index: 10;
 }
 
 .shop-photo-title {
@@ -561,6 +526,7 @@ a:hover {
   }
 }
 
+
 /*----button links coloring------------------------------------------------------------------------*/
 
 
@@ -611,7 +577,6 @@ a:hover {
     margin-bottom: 1em;
     display: block;
 }
-
 
 .footer-icons a {
     padding-left: 0.5em;
