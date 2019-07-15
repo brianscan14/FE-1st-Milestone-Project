@@ -332,6 +332,7 @@ a:hover {
     -moz-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
     -ms-transition: all -.5s ease-in-out;
+    transition: all -.5s ease-in-out;
 }
 
 .photobanner img:hover {

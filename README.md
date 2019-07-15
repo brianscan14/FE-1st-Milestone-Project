@@ -73,6 +73,8 @@ The contact form needs to be filled out correctly in order for it to work. If an
 
 Clicking on the logo of the navigation bar will bring you back to the home page at all times in case the user gets misdirected. Using ‘target=”_blank”’ on the blogs and the shop items allows for them to be opened in a new window and be and for the user to be fully immersed in them. All links have been tested to ensure that they are pointing in the correct direction.
 
+This site was tested across various browsers and devices. Chrome, Safari, IE and Firefox were tested on laptops, computers, iphones 5 & 7, an ipad and also samsung phones 6 & 8. It was during this testing I realised that the backgrounds of images needed to be changed to the same as the overall background in case it didn't load properly. I also realised that the animated banner wasn't being called correctly for IE page, so this was also corrected.
+
 ### **Deployment**
 
 This site is hosted using GitHub, it is deployed from the master branch. Pushing commits to the master branch will update the site automatically. The landing page was named index.html in order for it to be deployed on GitHub correctly.
