@@ -118,7 +118,7 @@ a:hover {
 }
 
 .bealtaineblog {
-    background-color: #adf1f0;
+    background-color: #F0EBE9;
     height: 15em;
     margin-left: 2.5em;
     margin-right: auto;
@@ -132,6 +132,7 @@ a:hover {
 
 .bealtaineblogborder1 {
     height: 15em;
+    background-color: #F0EBE9;
     margin-left: -1.5em;
     margin-right: 1.5em;
     margin-top: -16.5em;
@@ -147,7 +148,7 @@ a:hover {
 }
 
 .origamiblog {
-    background-color: #fafafa;
+    background-color: #F0EBE9;
     height: 25em;
     margin-right: 2.5em;
     margin-left: auto;
@@ -286,7 +287,7 @@ a:hover {
          animation: bannermove 40s linear infinite;
 }
 
-@keyframes "bannermove" {
+@keyframes bannermove {
  0% {
     margin-left: 0px;
  }
@@ -296,7 +297,7 @@ a:hover {
 
 }
 
-@-moz-keyframes "bannermove" {
+@-moz-keyframes bannermove {
  0% {
    margin-left: 0px;
  }
@@ -306,7 +307,7 @@ a:hover {
 
 }
 
-@-webkit-keyframes "bannermove" {
+@-webkit-keyframes bannermove {
  0% {
    margin-left: 0px;
  }
@@ -316,7 +317,7 @@ a:hover {
 
 }
 
-@-o-keyframes "bannermove" {
+@-o-keyframes bannermove {
  0% {
    margin-left: 0px;
  }
