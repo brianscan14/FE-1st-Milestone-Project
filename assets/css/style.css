@@ -296,7 +296,7 @@ a:hover {
 
 }
 
-@-moz-keyframes bannermove {
+@-moz-keyframes "bannermove" {
  0% {
    margin-left: 0px;
  }
@@ -315,7 +315,6 @@ a:hover {
  }
 
 }
-
 
 @-o-keyframes "bannermove" {
  0% {
