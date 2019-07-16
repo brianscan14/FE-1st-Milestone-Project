@@ -1,4 +1,3 @@
-![MoonBeam Logo](C:\Users\BRIANSCA\Desktop\Code\moonbeam\moonbeamlogo-transparent.png)
 
 # Mother.MoonBeam | Arts and Crafts
 
