@@ -1,5 +1,7 @@
 /*--general links coloring and default body text--*/
 
+@import url('https://fonts.googleapis.com/css?family=Courgette|DM+Serif+Display|Gloria+Hallelujah|PT+Serif|Sacramento&display=swap');
+
 body {
     font-family: 'PT Serif', serif;
     background-color: #F0EBE9;
