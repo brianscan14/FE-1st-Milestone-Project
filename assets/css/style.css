@@ -331,15 +331,15 @@ a:hover {
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
-    -ms-transition: all -.5s ease-in-out;
-    transition: all -.5s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 
 .photobanner img:hover {
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -o-transform: scale(1.15);
-    -ms-transform: scale(1.15);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
     -webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
