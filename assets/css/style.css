@@ -28,7 +28,7 @@ a:hover {
 
 @media only screen and (min-width: 579px) {
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #664E4C;
+    color: rgba(6, 6, 6, 0.65);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     text-align: center;
