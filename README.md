@@ -73,6 +73,8 @@ Adding JavaScript functions to the banner at the bottom of the home page to cycl
 
 I would like to add more content to the shop page, which would give users more to choose from when browsing the page. Also more photos of the items would allow for a better ‘quick view’ function when clicked, JavaScript would also be needed for this.
 
+Adding JavaScript functionality to the filter section on the Portfolio page would improve its user interaction with the page, making it simple for them to swift through different sections or ays of filtering the shop items.
+
 ### **Testing**
 
 The intended outcome of this site was achieved as I was able to showcase her work and talents while also allowing the user to get know her a bit better. In the about me section they can read a bit about her and her backgrounds along with her interests, while a portrait of her serves as the background. All of her items for sale are easily accessible in the portfolio section and these can then be opened to full screen in a new tab for a closer look. Most links on the sites also encourage the user to either visit the shop or contact her for more bespoke orders. The footer of every page also incorporates a link to her social media accounts.
