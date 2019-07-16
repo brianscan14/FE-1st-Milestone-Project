@@ -283,6 +283,9 @@ a:hover {
 
 .firstbannerpic {
  -webkit-animation: bannermove 40s linear infinite;
+    -moz-animation: bannermove 40s linear infinite;
+     -ms-animation: bannermove 40s linear infinite;
+      -o-animation: bannermove 40s linear infinite;
          animation: bannermove 40s linear infinite;
 }
 
@@ -292,6 +295,16 @@ a:hover {
  }
  100% {
     margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
  }
 
 }
@@ -306,9 +319,21 @@ a:hover {
 
 }
 
+@-o-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
 .photobanner img {
     -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
 }
 
@@ -318,6 +343,7 @@ a:hover {
     -o-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
 }
 
