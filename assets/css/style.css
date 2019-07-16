@@ -1,4 +1,4 @@
-/*------------------------general links coloring and default body text--------------------------------------*/
+/*--general links coloring and default body text--*/
 
 body {
     font-family: 'PT Serif', serif;
@@ -16,7 +16,7 @@ a:hover {
 }
 
 
-/*-----------------------------------------------------------------------------------------------------Nav nar*/
+/*--Navigation nar--*/
 
 .navbar-collapse {
     width: 60%;
@@ -53,7 +53,7 @@ a:hover {
 }
 
 
-/*------------------------------------------------------------------------------------------home page*/
+/*--home page--*/
 
 .homepic {
     width: 100%;
@@ -210,7 +210,7 @@ a:hover {
 }
 
 
-/*----------------  home page top hero size section banner-----------------------------------------------------------------*/
+/*-- home page top hero size section banner--*/
 
 
 .home-hero-left {
@@ -255,7 +255,7 @@ a:hover {
     font-family: 'DM Serif Display', serif;
 }
 
-/*---------------------------------------------------------------------------------------------bottom insta photos*/
+/*bottom instagram photos*/
 
 
 #instapiccontainer {
@@ -345,7 +345,7 @@ a:hover {
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
 }
 
-/*------------------------------------------------------------------------------------------------------about page*/
+/*--about page--*/
 
 .aboutpic {
     width: 100%;
@@ -394,7 +394,7 @@ a:hover {
 }
 
 
-/*---------------------------------------------------------------------------------------------------------contact page*/
+/*--contact page--*/
 
 
 .contact-heading {
@@ -416,7 +416,7 @@ a:hover {
 }
 
 
-/*-----------------------------------------------------------------------------------------shop*/
+/*--shop--*/
 
 
 .aside-section {
@@ -489,7 +489,7 @@ a:hover {
 }
 
 
-/*---------------------------------------------------------------------------------shop hoverstuff*/
+/*--shop hoverstuff--*/
 
 
 .overlay {
@@ -533,7 +533,7 @@ a:hover {
 }
 
 
-/*----button links coloring------------------------------------------------------------------------*/
+/*--button links coloring--*/
 
 
 .buttonpink {
@@ -569,7 +569,7 @@ a:hover {
     box-shadow: 0 0 0 0.2rem #efd5c3ad;
 }
 
-/*----------------------------------------------------------------------------------footer*/
+/*--footer--*/
 
 
 .footer-main-section {
