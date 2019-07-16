@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-    color: #664e4c;
+    color: #413231;
     text-decoration: none;
 }
 
@@ -371,7 +371,7 @@ a:hover {
     font-family: 'Sacramento', cursive;
     font-size: 25px;
     text-decoration: none;
-    color: inherit;
+    color: #EFD5C3;
     padding-bottom: 1em;
 }
 
