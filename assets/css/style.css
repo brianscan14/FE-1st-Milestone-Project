@@ -217,7 +217,7 @@ a:hover {
 
 .home-hero-left {
     height: 40em;
-    background-image: url("https://www.stockphotobucket.com/wp-content/uploads/2018/11/xcbw03rnanq.jpg");
+    background-image: url("../images/telly.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -231,12 +231,12 @@ a:hover {
 }
 
 .home-moonbeam-pic {
-    width: 13.5em;
-    height: 15em;
+    width: 20em;
+    height: 19em;
     opacity: 0.5;
-    margin-left: 9.8em;
+    margin-left: 6.8em;
     margin-right: auto;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 .hero-right-cursive-heading {
