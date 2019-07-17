@@ -36,7 +36,7 @@ For the customer, I wanted to give them a relatively simple site to show off her
 - [FontAwesome](https://fontawesome.com/start)
 - [Autoprefixer](https://autoprefixer.github.io/)
 - [TinyPNG](https://tinypng.com/)
-- [FancyBox3](https://www.fancyapps.com/fancybox/3/)
+- [FancyBox](https://www.fancyapps.com/fancybox/3/)
 
 ### **Features:**
 
