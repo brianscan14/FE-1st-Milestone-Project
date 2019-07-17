@@ -288,11 +288,8 @@ a:hover {
          animation: bannermove 40s linear infinite;
 }
 .secondpictrial {
-     -webkit-animation: bannermove 40s linear infinite;
-    -moz-animation: bannermove 40s linear infinite;
-     -ms-animation: bannermove 40s linear infinite;
-      -o-animation: bannermove 40s linear infinite;
-         animation: bannermove 40s linear infinite;
+    -moz-animation: bannermove 46.8s linear infinite;
+         animation: bannermove 46.8s linear infinite;
 }
 
 @keyframes bannermove {
