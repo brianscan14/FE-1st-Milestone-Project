@@ -119,7 +119,7 @@ This let me realise where aria-labels were missing and and alt tags, where loadi
 
 There is a bug in Firefox where the banner at the bottom of the home page stops after the first picture has left the window view.  This feature works perfectly in all other windows, [autoprefixer](https://autoprefixer.github.io/) was used to try and correct this but to no avail. [Can I use](https://caniuse.com/#search=keyframes) shows there is an issue with inline or scoped stylesheet in Firefox but I am not using these. 
 
-In Firefox the 'firstbannerpc' class works but the rest of the pics in the banner do not follow in the animation as they do with other browsers. An animation class for the second picture was added to try an test/resolve this but it ended up just overlapping the first picture. I have been unable to resolve this in this instance but if there is a way to to do please let me know. 
+In Firefox the 'firstbannerpc' class works but the rest of the pics in the banner do not follow in the animation as they do with other browsers. An animation class for the second picture was added to try an test/resolve this but it ended up just overlapping the first picture. I have been unable to resolve this in this instance but if there is a way to to do please let me know. If JS was able to be used as discussed in the 'featured to be added section then this would negate this issue'.
 
 ### **Deployment**
 Cloud9 was utilised for this project, changes were committed to git and pushed to GitHub as they were made using this IDE. To deploy this page to GitHub pages from its GitHub repository, you need to:
