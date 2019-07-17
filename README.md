@@ -29,11 +29,13 @@ For the customer, I wanted to give them a relatively simple site to show off her
 
 - Html
 - CSS
-- Bootstrap 
-- jQuery
-- Popper.js
-- Google Fonts
-- FontAwesome
+- [Bootstrap](https://getbootstrap.com/) 
+- [jQuery](https://jquery.com/)
+- [Popper.js](https://popper.js.org/)
+- [Google Fonts](https://fonts.google.com/)
+- [FontAwesome](https://fontawesome.com/start)
+- [Autoprefixer](https://autoprefixer.github.io/)
+- [TinyPNG](https://tinypng.com/)
 
 ### **Features:**
 
@@ -111,7 +113,7 @@ It was during this testing I realised that the backgrounds of images needed to b
 - Best Practices
 - Accessibility
 
-This let me realise where aria-labels were missing and and alt tags, where loading times can be reduced and colour's opacities needed to be changed to improve performance. The pictures used were reduced using this [website](https://tinypng.com/), this also led me to changing the picture of the television on the home page to a .jpg file instead of loading it from the internet, which took longer. As a result of these audits on the site each page scored at least 90% or over in the three aspects.
+This let me realise where aria-labels were missing and and alt tags, where loading times can be reduced and colour's opacities needed to be changed to improve performance. JS and Popper links at the bottom of pages also needed to be updated to improve security. The pictures used were reduced using this [website](https://tinypng.com/), this also led me to changing the picture of the television on the home page to a .jpg file instead of loading it from the internet, which took longer. As a result of these audits on the site each page scored at least 90% or over in the three aspects.
 
 ##### Known bugs
 
