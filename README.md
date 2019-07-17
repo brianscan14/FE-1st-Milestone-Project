@@ -83,7 +83,41 @@ The contact form needs to be filled out correctly in order for it to work. If an
 
 Clicking on the logo of the navigation bar will bring you back to the home page at all times in case the user gets misdirected. Using ‘target="_blank"’ on the blogs and the shop items allows for them to be opened in a new window and be and for the user to be fully immersed in them. All links have been tested to ensure that they are pointing in the correct direction.
 
-This site was tested across various browsers and devices. Chrome, Safari, IE and Firefox were tested on laptops, computers, iphones 5 & 7, an ipad and also samsung phones 6 & 8. It was during this testing I realised that the backgrounds of images needed to be changed to the same as the overall background in case it didn't load properly. I also realised that the animated banner wasn't being called correctly for IE page, so this was also corrected.
+###### *This site was tested across the below browsers:*
+
+Chrome
+
+Safari
+
+IE
+
+Firefox
+
+###### *and devices:*
+
+Laptops (windows & mac)
+
+Desktop (windows & mac)
+
+iPhones 5 & 7,
+
+iPad
+
+Samsung's 6, 8, 10 & A7
+
+It was during this testing I realised that the backgrounds of images needed to be changed to the same as the overall background in case it didn't load properly. The audit tool from google inspect was used in order to improve on three aspects:
+
+- Performance
+- Best Practices
+- Accessibility
+
+This let me realise where aria-labels were missing and and alt tags, where loading times can be reduced and colour's opacities needed to be changed to improve performance. The pictures used were reduced using this [website](https://tinypng.com/), this also led me to changing the picture of the television on the home page to a .jpg file instead of loading it from the internet, which took longer. As a result of these audits on the site each page scored at least 90% or over in the three aspects.
+
+##### Known bugs
+
+There is a bug in Firefox where the banner at the bottom of the home page stops after the first picture has left the window view.  This feature works perfectly in all other windows, [autoprefixer](https://autoprefixer.github.io/) was used to try and correct this but to no avail. [Can I use](https://caniuse.com/#search=keyframes) shows there is an issue with inline or scoped stylesheet in Firefox but I am not using these. 
+
+In Firefox the 'firstbannerpc' class works but the rest of the pics in the banner do not follow in the animation as they do with other browsers. An animation class for the second picture was added to try an test/resolve this but it ended up just overlapping the first picture. I have been unable to resolve this in this instance but if there is a way to to do please let me know. 
 
 ### **Deployment**
 Cloud9 was utilised for this project, changes were committed to git and pushed to GitHub as they were made using this IDE. To deploy this page to GitHub pages from its GitHub repository, you need to:
