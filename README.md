@@ -36,6 +36,7 @@ For the customer, I wanted to give them a relatively simple site to show off her
 - [FontAwesome](https://fontawesome.com/start)
 - [Autoprefixer](https://autoprefixer.github.io/)
 - [TinyPNG](https://tinypng.com/)
+- [FancyBox3](https://www.fancyapps.com/fancybox/3/)
 
 ### **Features:**
 
@@ -63,7 +64,7 @@ There is then a subscribe option included which will add  the user’s email to 
 
 This page is laid out as a standard ‘shop’ page would be, with a filter on the left and items for sale on the right. When on mobile these filter options become a modal button in order to not take up screen room when un-clicked. The column widths are from bootstrap, 3 on a larger page and 6 on smaller screens. 
 
-The quick view comes on when hovered and will open an image in a new tab, which is desired as the user can see the whole thing as opposed to it being stretched or squashed on a smaller screen. Items also have a shadow around them when hovered which will allow the user to see which one they are on even more.
+The quick view comes on when hovered and will open an image in a fancybox window so that they can swift through the photos. This is desired as the user can see the whole thing as opposed to it being stretched or squashed on a smaller screen. Items also have a shadow around them when hovered which will allow the user to see which one they are on even more.
 
 ##### Contact:
 
@@ -73,7 +74,7 @@ The contact page is a standard form which you need to fill in to send an email t
 
 Adding JavaScript functions to the banner at the bottom of the home page to cycle through the photos would enhance its usability, the buttons allow for a person to ponder on a picture instead of it constantly scrolling. 
 
-I would like to add more content to the shop page, which would give users more to choose from when browsing the page. Also more photos of the items would allow for a better ‘quick view’ function when clicked, JavaScript would also be needed for this.
+I would like to add more content to the shop page, which would give users more to choose from when browsing the page. Also more photos of the items would allow for a better ‘quick view’ function when clicked.
 
 Adding JavaScript functionality to the filter section on the Portfolio page would improve its user interaction with the page, making it simple for them to swift through different means of filtering the shop items.
 
