@@ -287,10 +287,6 @@ a:hover {
       -o-animation: bannermove 40s linear infinite;
          animation: bannermove 40s linear infinite;
 }
-.secondpictrial {
-    -moz-animation: bannermove 46.8s linear infinite;
-         animation: bannermove 46.8s linear infinite;
-}
 
 @keyframes bannermove {
  0% {
