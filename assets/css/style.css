@@ -527,6 +527,10 @@ a:hover {
     text-align: center;
 }
 
+.quickviewportfolio:hover {
+    color: #ecb2b0a6;
+}
+
 @media only screen and (max-width: 769px) {
   .overlay {
     width: 77%;
