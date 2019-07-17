@@ -150,8 +150,6 @@ a:hover {
     border-color: #664E4C;
 }
 
-
-
 .origamiblog {
     background-color: #F0EBE9;
     height: 25em;
@@ -284,6 +282,13 @@ a:hover {
 
 .firstbannerpic {
  -webkit-animation: bannermove 40s linear infinite;
+    -moz-animation: bannermove 40s linear infinite;
+     -ms-animation: bannermove 40s linear infinite;
+      -o-animation: bannermove 40s linear infinite;
+         animation: bannermove 40s linear infinite;
+}
+.secondpictrial {
+     -webkit-animation: bannermove 40s linear infinite;
     -moz-animation: bannermove 40s linear infinite;
      -ms-animation: bannermove 40s linear infinite;
       -o-animation: bannermove 40s linear infinite;
