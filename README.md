@@ -85,27 +85,20 @@ The contact form needs to be filled out correctly in order for it to work. If an
 
 Clicking on the logo of the navigation bar will bring you back to the home page at all times in case the user gets misdirected. Using ‘target="_blank"’ on the blogs and the shop items allows for them to be opened in a new window and be and for the user to be fully immersed in them. All links have been tested to ensure that they are pointing in the correct direction.
 
-###### *This site was tested across the below browsers:*
+*This site was tested across the below browsers:*
 
-Chrome
+- Chrome
+- Safari
+- IE
+- Firefox
 
-Safari
+*and devices:*
 
-IE
-
-Firefox
-
-###### *and devices:*
-
-Laptops (windows & mac)
-
-Desktop (windows & mac)
-
-iPhones 5 & 7,
-
-iPad
-
-Samsung's 6, 8, 10 & A7
+- Laptops (windows & mac)
+- Desktop (windows & mac)
+- iPhones 5 & 7,
+- iPad
+- Samsung's 6, 8, 10 & A7
 
 It was during this testing I realised that the backgrounds of images needed to be changed to the same as the overall background in case it didn't load properly. The audit tool from google inspect was used in order to improve on three aspects:
 
