@@ -269,11 +269,11 @@ a:hover {
 	height: 15em;
 	width: 3550px;
 	animation-play-state: running;
-	 -webkit-animation: bannermove 30s linear infinite;
+    -webkit-animation: bannermove 30s linear infinite;
     -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-      -o-animation: bannermove 30s linear infinite;
-         animation: bannermove 30s linear infinite;
+    -ms-animation: bannermove 30s linear infinite;
+    -o-animation: bannermove 30s linear infinite;
+    animation: bannermove 30s linear infinite;
 }
 
 .instapic {
