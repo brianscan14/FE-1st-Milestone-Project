@@ -118,7 +118,7 @@ The intended outcome of this site was achieved as I was able to showcase her wor
 
 The contact form needs to be filled out correctly in order for it to work. If an invalid email address is entered then an error will pop up informing you. The ‘required’ attribute is also utilised for email, text and name fields so that if they aren’t filled out correctly it will not submit. The same features are also applied to the subscribe button on the about page to ensure the email is filled out correctly.
 
-Clicking on the logo of the navigation bar will bring you back to the home page at all times in case the user gets misdirected. Using ‘target="_blank"’ on the blogs and the shop items allows for them to be opened in a new window and be and for the user to be fully immersed in them. All links have been tested to ensure that they are pointing in the correct direction.
+Clicking on the logo of the navigation bar will bring you back to the home page at all times in case the user gets misdirected. Using ‘target="_blank"’ on the blogs and fancybox for the shop items allows for them to be opened in a window and for the user to be fully immersed in them. All links have been tested to ensure that they are pointing in the correct direction.
 
 *This site was tested across the below browsers:*
 
@@ -141,7 +141,9 @@ It was during this testing I realised that the backgrounds of images needed to b
 - Best Practices
 - Accessibility
 
-This let me realise where aria-labels were missing and alt tags. Where loading times can be reduced and colour's opacities needed to be changed to improve performance. JS and Popper links at the bottom of pages also needed to be updated to improve security. The pictures used were reduced using this [website](https://tinypng.com/), this also led me to changing the picture of the television on the home page to a .jpg file instead of loading it from the internet, which took longer. As a result of these audits on the site each page scored at least 90% or over in the three aspects aforementioned.
+This let me realise where aria-labels were missing and alt tags. Where loading times can be reduced and colour's opacities needed to be changed to improve performance. JS and Popper links at the bottom of pages also needed to be updated to improve security. 
+
+The pictures used were reduced using this [website](https://tinypng.com/), this also led me to changing the picture of the television on the home page to a .jpg file instead of loading it from the internet, which took longer. As a result of these audits on the site each page scored at least 90% or over in the three aspects aforementioned.
 
 There was a issue in Firefox where the banner at the bottom of the home page stops after the first picture has left the window view.  This feature works perfectly in all other windows, [autoprefixer](https://autoprefixer.github.io/) was used to try and correct this but to no avail.
 
@@ -149,7 +151,7 @@ In Firefox the 'firstbannerpc' class works but the rest of the pics in the banne
 
 ##### Known Bugs
 
-In Internet Explorer the 'Yule' and 'Bealtaine' blog titles do not appear in their correct downward text-orientation. I searched this problem using [can I use](https://caniuse.com/#search=text-orient) and unfortunately this is a known bug with IE that cannot be remedied.
+In Internet Explorer the 'Yule' and 'Bealtaine' blog titles do not appear in their correct downward text-orientation. I searched this problem using [can I use](https://caniuse.com/#search=text-orient) and unfortunately this is a known bug with IE that cannot be remedied. '<br>' could be used but this isn't good practice.
 
 ### **Deployment**
 Cloud9 was utilised for this project, changes were committed to git and pushed to GitHub as they were made using this IDE. To deploy this page to GitHub pages from its GitHub repository, you need to:
@@ -184,7 +186,7 @@ All pictures were gotten for the Instagram page, the image of the telly was a st
 
 ##### Acknowledgements
 
-The photo banner was obtained with help from WE3 School’s examples [here](https://www.w3schools.com/css/css3_animations.asp) &[here](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp), and also Tutorial Republic’s [example](https://www.tutorialrepublic.com/css-tutorial/css3-2d-transforms.php). They were then significantly modified to get the margins correct to make the bottom banner for the home page. They were then significantly modified to make the bottom banner for the home page.
+The photo banner was obtained with help from WE3 School’s examples [here](https://www.w3schools.com/css/css3_animations.asp) & [here](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp), and also Tutorial Republic’s [example](https://www.tutorialrepublic.com/css-tutorial/css3-2d-transforms.php). They were then significantly modified to get the margins correct to make the bottom banner for the home page.
 
 ##### Disclaimer
 
