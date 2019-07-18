@@ -341,12 +341,17 @@ a:hover {
     -ms-transform: scale(1.05);
     -webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    -o-box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    -ms-box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-    
 }
 
 .photobanner:hover {
-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 /*--about page--*/
