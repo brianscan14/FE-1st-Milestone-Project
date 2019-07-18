@@ -25,6 +25,25 @@ For the customer, I wanted to give them a relatively simple site to show off her
 6. As an interested client, I want to have easy access to social media links to follow her on different platforms.
 7. As a returning visitor to the website, i want to be able to subscribe to her feed in order to keep up with all the latest news and stories.
 
+##### Wireframe mockups:
+
+- Navbar
+  - [xs screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Navbar_xs.jpg)
+  - [sm-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Navbar_sm_xl.jpg)
+- Footer
+  - [xs-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Footer_All_Screens.png)
+- Home
+  - xs screen ([part 1](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Home_xs_Part1.jpg) & [part 2](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Home_xs_Part2.jpg))
+  - [sm-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Home_sm_xl.jpg)
+- About
+  - [xs screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/About_xs.jpg)
+  - [sm-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/About_sm_xl.jpg)
+- Portfolio
+  - [xs screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Portfolio_xs.jpg)
+  - [sm-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Portfolio_sm_xl.jpg)
+- Contact
+  - [xs-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Contact.jpg)
+
 ### **Technologies:** 
 
 - Html
