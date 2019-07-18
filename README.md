@@ -35,21 +35,21 @@ This website was designed with two screens size ranges in mind:
 As a  result of this the below wireframes consist largely of only 2 mockups drawings (contact & footer are the exceptions). One for phone screens, and one for screens ranging from tablet to desktop size.
 
 - Navbar
-  - [xs screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Navbar_xs.jpg)
-  - [sm-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Navbar_sm_xl.jpg)
+  - [xs screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Navbar_xs.jpg)
+  - [sm-xl screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Home_sm_xl.jpg)
 - Footer
-  - [xs-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Footer_All_Screens.png)
+  - [xs-xl screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Footer_All_Screens.png)
 - Home
-  - xs screen ([part 1](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Home_xs_Part1.jpg) & [part 2](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Home_xs_Part2.jpg))
-  - [sm-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Home_sm_xl.jpg)
+  - xs screen ([part 1](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Home_xs_Part1.jpg) & [part 2](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Home_xs_Part2.jpg))
+  - [sm-xl screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Home_sm_xl.jpg)
 - About
-  - [xs screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/About_xs.jpg)
-  - [sm-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/About_sm_xl.jpg)
+  - [xs screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/About_xs.jpg)
+  - [sm-xl screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/About_sm_xl.jpg)
 - Portfolio
-  - [xs screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Portfolio_xs.jpg)
-  - [sm-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Portfolio_sm_xl.jpg)
+  - [xs screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Portfolio_xs.jpg)
+  - [sm-xl screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Portfolio_sm_xl.jpg)
 - Contact
-  - [xs-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Contact.jpg)
+  - [xs-xl screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Contact.jpg)
 
 ### **Technologies:** 
 
