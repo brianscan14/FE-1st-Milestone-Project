@@ -46,16 +46,24 @@ For the customer, I wanted to give them a relatively simple site to show off her
 
 ### **Technologies:** 
 
-- Html
-- CSS
+- Html & CSS
+    -  programming languages used for this project
 - [Bootstrap](https://getbootstrap.com/) 
+    -  Used to make the website more responsive and streamline the grid layout
 - [jQuery](https://jquery.com/)
+    - Used for the navbar, modal and fancybox gallery on the portfolio page
 - [Popper.js](https://popper.js.org/)
+    - A reference JS needed for the navbar & modal
 - [Google Fonts](https://fonts.google.com/)
+    - Utilised to style the fonts on the site
 - [FontAwesome](https://fontawesome.com/start)
+    - The site used BootstrapCDN to provide icons from FontAwesome
 - [Autoprefixer](https://autoprefixer.github.io/)
+    - Used to validate the css code for all browsers
 - [TinyPNG](https://tinypng.com/)
+    - Compressed size of pictures used on website, to improve loading efficiency
 - [FancyBox](https://www.fancyapps.com/fancybox/3/)
+    - Project uses fancybox for a modal popup to browse the images in porfolio page
 
 ### **Features:**
 
