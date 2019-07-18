@@ -27,6 +27,13 @@ For the customer, I wanted to give them a relatively simple site to show off her
 
 ##### Wireframe mockups:
 
+This website was designed with two screens size ranges in mind:
+
+1. Mobile
+2. Tablet-desktop
+
+As a  result of this the below wireframes consist largely of only 2 mockups drawings (contact & footer are the exceptions). One for phone screens, and one for screens ranging from tablet to desktop size.
+
 - Navbar
   - [xs screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Navbar_xs.jpg)
   - [sm-xl screen](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/433f9f22d02a46ca95dec39c9f7a2517/preview/assets/images/wireframes/Navbar_sm_xl.jpg)
