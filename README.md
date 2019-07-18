@@ -1,4 +1,3 @@
-![Moonbeam Logo](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/moonbeamlogo-transparent.png)
 
 # Mother.MoonBeam | Arts and Crafts
 
