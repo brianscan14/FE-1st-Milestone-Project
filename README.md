@@ -86,7 +86,7 @@ Below that then there are two sections styled in the colour scheme. These sectio
 
 There is then some more sections which are styled with borders to give the page a bit of style, these show off her interests. Links to blogs are incorporated (the blogs will need to be created by the person) which will give the user a better idea of the individual’s interests and skills.
 
-A photo banner then scrolls across the page on larger screens which showcase the Instagram photos. These photos scale slightly when hovered over, the 1st, 2nd and 3rd photos had to be repeated in order to give the illusion of a continuous carousel as there is no JavaScript functionality.
+A photo banner then scrolls across the page on larger screens which showcase the Instagram photos. Whilst hovering the banner pauses and the photo hovered over scales slightly in order to ponder it, the 1st, 2nd, 3rd and 4th photos had to be repeated in order to give the illusion of a continuous carousel as there is no JavaScript functionality.
 
 ##### About:
 
@@ -143,11 +143,13 @@ It was during this testing I realised that the backgrounds of images needed to b
 
 This let me realise where aria-labels were missing and alt tags. Where loading times can be reduced and colour's opacities needed to be changed to improve performance. JS and Popper links at the bottom of pages also needed to be updated to improve security. The pictures used were reduced using this [website](https://tinypng.com/), this also led me to changing the picture of the television on the home page to a .jpg file instead of loading it from the internet, which took longer. As a result of these audits on the site each page scored at least 90% or over in the three aspects aforementioned.
 
-##### Known bugs
+There was a issue in Firefox where the banner at the bottom of the home page stops after the first picture has left the window view.  This feature works perfectly in all other windows, [autoprefixer](https://autoprefixer.github.io/) was used to try and correct this but to no avail.
 
-There is a bug in Firefox where the banner at the bottom of the home page stops after the first picture has left the window view.  This feature works perfectly in all other windows, [autoprefixer](https://autoprefixer.github.io/) was used to try and correct this but to no avail. [Can I use](https://caniuse.com/#search=keyframes) shows there is an issue with inline or scoped stylesheet in Firefox but I am not using these. 
+In Firefox the 'firstbannerpc' class works but the rest of the pics in the banner do not follow in the animation as they do with other browsers. After much trial and error I was able to resolve this by adding the animation to the div wrapping the pics instead of the first picture, the banner now works on all browsers.
 
-In Firefox the 'firstbannerpc' class works but the rest of the pics in the banner do not follow in the animation as they do with other browsers. An animation class for the second picture was added to try an test/resolve this but it ended up just overlapping the first picture. I have been unable to resolve this in this instance but if there is a way to to do please let me know. If JS was able to be used as discussed in the 'featured to be added' section then this would negate this issue.
+##### Known Bugs
+
+In Internet Explorer the 'Yule' and 'Bealtaine' blog titles do not appear in their correct downward text-orientation. I searched this problem using [can I use](https://caniuse.com/#search=text-orient) and unfortunately this is a known bug with IE that cannot be remedied.
 
 ### **Deployment**
 Cloud9 was utilised for this project, changes were committed to git and pushed to GitHub as they were made using this IDE. To deploy this page to GitHub pages from its GitHub repository, you need to:
