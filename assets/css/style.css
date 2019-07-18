@@ -1,5 +1,6 @@
 /*--general links coloring and default body text--*/
 
+
 @import url('https://fonts.googleapis.com/css?family=Courgette|DM+Serif+Display|Gloria+Hallelujah|PT+Serif|Sacramento&display=swap');
 
 body {
@@ -20,6 +21,7 @@ a:hover {
 
 /*--Navigation nar--*/
 
+
 .navbar-collapse {
     width: 60%;
     margin-left: auto;
@@ -27,7 +29,10 @@ a:hover {
 }
 
 @media only screen and (min-width: 579px) {
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
     color: rgba(6, 6, 6, 0.65);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
@@ -38,7 +43,8 @@ a:hover {
 }
 
 @media only screen and (min-width: 579px) {
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
     color: #efd5c3a6;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
@@ -56,6 +62,7 @@ a:hover {
 
 
 /*--home page--*/
+
 
 .homepic {
     width: 100%;
@@ -452,7 +459,8 @@ a:hover {
     border-color: #FFD4CA;
 }
 .shop-itempic:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: ease-in-out;
 }
 
@@ -581,6 +589,7 @@ a:hover {
     border-color: #EFD5C3;
     box-shadow: 0 0 0 0.2rem #efd5c3ad;
 }
+
 
 /*--footer--*/
 
