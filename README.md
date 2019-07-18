@@ -184,8 +184,7 @@ All pictures were gotten for the Instagram page, the image of the telly was a st
 
 ##### Acknowledgements
 
-The photo banner was obtained with help from WE3 School’s example [here](https://www.w3schools.com/css/css3_2dtransforms.asp) and Tutorial
-Republic’s [example](https://www.tutorialrepublic.com/css-tutorial/css3-2d-transforms.php). They were then significantly modified to make the bottom banner for the home page.
+The photo banner was obtained with help from WE3 School’s examples [here](https://www.w3schools.com/css/css3_animations.asp) &[here](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp), and also Tutorial Republic’s [example](https://www.tutorialrepublic.com/css-tutorial/css3-2d-transforms.php). They were then significantly modified to get the margins correct to make the bottom banner for the home page. They were then significantly modified to make the bottom banner for the home page.
 
 ##### Disclaimer
 
