@@ -49,8 +49,8 @@ a:hover {
 .navbar-logo-large {
     background-image: url("../images/moonbeamlogo-transparent.png");
     background-size: contain;
-    height: 16em;
-    width: 16em;
+    height: 15em;
+    width: 15em;
     background-repeat: no-repeat;
 }
 
@@ -230,12 +230,12 @@ a:hover {
 }
 
 .home-moonbeam-pic {
-    width: 20em;
-    height: 19em;
+    width: 18em;
+    height: 16em;
     opacity: 0.5;
-    margin-left: 6.8em;
+    margin-left: 8em;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 .hero-right-cursive-heading {
