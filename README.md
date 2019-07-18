@@ -3,7 +3,7 @@
 
 User Centric FE Development Milestone Project - Code Institute
 
-This is a website that I created for my friend as way of showcasing her arts & craft skills. The Site incorporates options for custom designs and also items for sale, also including an about me section. This site stems from the Instagram account and so the website is based on traffic coming from the Instagram page, so it has a mobile first centered design. 
+This is a website that I created for my friend as way of showcasing her arts & craft skills. The Site incorporates options for contacting her for bespoke designs and it also showcases items for sale. This is accomplished with a portfolio and contact section. Also included is a home page with blogs etc., and an about me page where they can get to know a little bit more about her. This site stems from the Instagram account and so the website is based on traffic coming from the Instagram page, so it has a mobile first centered design. 
 
 ### **Demo:**
 
@@ -11,7 +11,7 @@ A live demo can be found [here](https://brianscan14.github.io/FE-1st-Milestone-P
 
 ### **UX:**
 
-The main goal of the site was to direct users to her portfolio where they can see her items for sale, or indeed submit a bespoke order. This was all done while conforming to a simple colour scheme and sheek design.
+The main goal of the site was to direct users to her portfolio where they can see her items for sale, or indeed submit a bespoke order stemming from viewing this portfolio. This was all done while conforming to a simple colour scheme and sheek design.
 
 For the customer, I wanted to give them a relatively simple site to show off her interests/talents/items. Links are provided on all pages which will either bring you to the shop or to contact her for custom orders or enquiries. There are links to blogs for customers to click into and read in a new window, and an about me section was also made with a picture of the individual. These all give the customer a glimpse of the person and her interests, which may entice them to contact her more if they have similar interests. There are also links at the bottom of each page in order to quickly access social media/PayPal platforms.
 
