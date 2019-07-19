@@ -32,7 +32,7 @@ This website was designed with two screens size ranges in mind:
 1. Mobile
 2. Tablet-desktop
 
-As a  result of this the below wireframes consist largely of only 2 mockups drawings (contact & footer are the exceptions). One for phone screens, and one for screens ranging from tablet to desktop size.
+As a  result of this the below wireframes consist largely of only 2 mockups drawings (contact & footer are the exceptions). One for phone screens (xs), and one for screens ranging from tablet to desktop size (sm-xl).
 
 - Navbar
   - [xs screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Navbar_xs.jpg)
@@ -118,7 +118,7 @@ The intended outcome of this site was achieved as I was able to showcase her wor
 
 The contact form needs to be filled out correctly in order for it to work. If an invalid email address is entered then an error will pop up informing you. The ‘required’ attribute is also utilised for email, text and name fields so that if they aren’t filled out correctly it will not submit. The same features are also applied to the subscribe button on the about page to ensure the email is filled out correctly.
 
-Clicking on the logo of the navigation bar will bring you back to the home page at all times in case the user gets misdirected. Using fancybox for the shop items allows for them to be opened in a window and for the user to be fully immersed in them. By having ‘target="_blank"’ on the footer's social media links and instagram pictures (ome page) the traffic is not brought away from the page completely as a new tab is opened. All links have been tested to ensure that they are pointing in the correct direction.
+Clicking on the logo of the navigation bar will bring you back to the home page at all times in case the user gets misdirected. Using fancybox for the shop items allows for them to be opened in a window and for the user to be fully immersed in them. By having ‘target="_blank"’ on the footer's social media links and Instagram pictures (home page) the traffic is not brought away from the page completely as a new tab is opened. All links have been tested to ensure that they are pointing in the correct direction.
 
 *This site was tested across the below browsers:*
 
