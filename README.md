@@ -18,7 +18,7 @@ For the customer, I wanted to give them a relatively simple site to show off her
 ##### Client Stories
 
 1. Being a new visitor to the website, I want to be able to easily navigate the site and find what I was looking for within one or two clicks.
-2. As a new visitor to the site, I want to see more of what was on her social media page and see all the items on offer. 
+2. As a new visitor to the site, I want to see more than what was on her social media page and see all the items on offer from her. 
 3. As a new visitor to the site, I want to learn more about the page owner and get to know her interests and hobbies to see if we have anything in common.
 4. As a potential client, I want to be able to understand what range of prices the products are going for, and what price I might expect for a bespoke order.
 5. As an interested client, I want the order process to be quick and simple. With an easy to fill out contact form  and text area to let me describe what I need.
@@ -36,7 +36,7 @@ As a  result of this the below wireframes consist largely of only 2 mockups draw
 
 - Navbar
   - [xs screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Navbar_xs.jpg)
-  - [sm-xl screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Home_sm_xl.jpg)
+  - [sm-xl screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Navbar_sm_xl.jpg)
 - Footer
   - [xs-xl screen](https://raw.githubusercontent.com/brianscan14/FE-1st-Milestone-Project/master/assets/images/wireframes/Footer_All_Screens.png)
 - Home
@@ -58,7 +58,7 @@ As a  result of this the below wireframes consist largely of only 2 mockups draw
 - [Bootstrap](https://getbootstrap.com/) 
     -  Used to make the website more responsive and streamline the grid layout
 - [jQuery](https://jquery.com/)
-    - Used for the navbar, modal and fancybox gallery on the portfolio page
+    - Used for the navbar on all pages, also the modal and fancybox gallery on the portfolio page
 - [Popper.js](https://popper.js.org/)
     - A reference JS needed for the navbar & modal
 - [Google Fonts](https://fonts.google.com/)
@@ -66,25 +66,25 @@ As a  result of this the below wireframes consist largely of only 2 mockups draw
 - [FontAwesome](https://fontawesome.com/start)
     - The site used BootstrapCDN to provide icons from FontAwesome
 - [Autoprefixer](https://autoprefixer.github.io/)
-    - Used to validate the css code for all browsers
+    - Used to validate the CSS code for all browsers
 - [TinyPNG](https://tinypng.com/)
     - Compressed size of pictures used on website, to improve loading efficiency
 - [FancyBox](https://www.fancyapps.com/fancybox/3/)
-    - Project uses fancybox for a modal popup to browse the images in porfolio page
+    - Project uses fancybox for a modal popup to browse through the images in the portfolio page
 
 ### **Features:**
 
-The navbar changes on this page with regards to screen size to be more mobile user friendly, as a lot of the traffic will be stemming from a link on the Instagram page. Smaller screen devices utilise a collapse button icon to pick the sections for handiness. The logo is placed above the nav items in order to stand out, and the selected tab is ‘active’ to denote to users what page they are currently on. This allows users to recognise the brand and clicking it returns them to the home page.
+The navbar changes on this page with regards to screen size to be more mobile user friendly, as a lot of the traffic will be stemming from a link on the Instagram page. Smaller screen devices utilise a collapse button icon to pick the sections for ease of use. The logo is placed above the nav items in order to stand out, and the selected tab is ‘active’ to denote to users what page they are currently on. This allows users to recognise the brand and clicking the logo returns them to the home page.
 
-There is also a footer at the bottom of every page, which highlights when hovered over to the standard light cream/pink colour. These icons symbolise links to social media and also PayPal, the actual private pages were not included for privacy reasons.
+There is also a footer at the bottom of every page, which highlights when hovered over to the standard light cream/pink colour. These icons symbolise links to social media and also PayPal, the actual private pages were not included in this project for privacy reasons.
 
 ##### Home:
 
-At the top of the home page a hero banner is featured which stems across the width of the screen. On the left is an old telly which includes the page logo, and on the right the colour scheme kicks off with some text and a link to the shop. The telly image is removed for smaller screens so as not to be taking up too much scrolling time with unnecessary content that doesn’t entice the user to engage. The direction to purchase items begins straight away on the page.
+At the top of the home page a hero banner is featured which stems across the width of the screen. On the left is an old television which includes the page logo, and on the right the colour scheme kicks off with some text and a link to the shop. The television image is removed for smaller screens so as not to be taking up too much scrolling time with unnecessary content that doesn’t entice the user to engage. The direction to purchase items begins straight away on the page.
 
-Below that then there are two sections styled in the colour scheme. These sections provide links to the shop again, and the other to the contact page if they wanted a customer order, these links open on the same page so that a mess isn’t created with redirections.
+Below that then there are two sections styled in the colour scheme. These sections provide links to the shop again, and the other to the contact page if they wanted a custom order, these links open on the same page so that a mess isn’t created with redirections.
 
-There is then some more sections which are styled with borders to give the page a bit of style, these show off her interests. Links to blogs are incorporated (the blogs will need to be created by the person) which will give the user a better idea of the individual’s interests and skills.
+There is then some more sections which are fashioned with borders to give the page a bit of style, these show off her interests. Links to blogs are incorporated (the blog's content will need to be created by the person) which will give the user a better idea of the individual’s interests and skills.
 
 A photo banner then scrolls across the page on larger screens which showcase the Instagram photos. Whilst hovering the banner pauses and the photo hovered over scales slightly in order to ponder it, the 1st, 2nd, 3rd and 4th photos had to be repeated in order to give the illusion of a continuous carousel as there is no JavaScript functionality.
 
@@ -96,13 +96,13 @@ There is then a subscribe option included which will add  the user’s email to 
 
 ##### Portfolio:
 
-This page is laid out as a standard ‘shop’ page would be, with a filter on the left and items for sale on the right. When on mobile these filter options become a modal button in order to not take up screen room when un-clicked. The column widths are from bootstrap, 3 on a larger page and 6 on smaller screens. 
+This page is laid out as a standard ‘shop’ page would be, with a filter with collapsing sections on the left and items for sale on the right. When on mobile these filter options become a modal button in order to not take up screen room. The column widths are from bootstrap, 3 on a larger page and 6 on smaller screens. 
 
-The quick view comes on when hovered and will open an image in a fancybox window so that they can swift through the photos. This is desired as the user can see the whole thing as opposed to it being stretched or squashed on a smaller screen. Items also have a shadow around them when hovered which will allow the user to see which one they are on even more.
+The quick view comes on when hovered and will open an image in a fancybox window so that they can swift through the photos. This is desired as the user can see the whole image as opposed to it being stretched or squashed on a smaller screen. Items also have a shadow around them when hovered which will allow the user even more to see which one they are on.
 
 ##### Contact:
 
-The contact page is a standard form which you need to fill in to send an email to the page owner. An email must be entered properly on this form and required was added to the name and text sections also to ensure the form is filled out correctly. A nice shadow feature keeping with the colour scheme is also utilised.
+The contact page is a standard form which you need to fill in to send an email to the page owner. An email must be entered properly on this form and required was added to the email, name and text sections also to ensure the form is filled out correctly. A nice shadow feature keeping with the colour scheme is also utilised.
 
 ### **Features left to implement**
 
@@ -118,7 +118,7 @@ The intended outcome of this site was achieved as I was able to showcase her wor
 
 The contact form needs to be filled out correctly in order for it to work. If an invalid email address is entered then an error will pop up informing you. The ‘required’ attribute is also utilised for email, text and name fields so that if they aren’t filled out correctly it will not submit. The same features are also applied to the subscribe button on the about page to ensure the email is filled out correctly.
 
-Clicking on the logo of the navigation bar will bring you back to the home page at all times in case the user gets misdirected. Using ‘target="_blank"’ on the blogs and fancybox for the shop items allows for them to be opened in a window and for the user to be fully immersed in them. All links have been tested to ensure that they are pointing in the correct direction.
+Clicking on the logo of the navigation bar will bring you back to the home page at all times in case the user gets misdirected. Using fancybox for the shop items allows for them to be opened in a window and for the user to be fully immersed in them. By having ‘target="_blank"’ on the footer's social media links and instagram pictures (ome page) the traffic is not brought away from the page completely as a new tab is opened. All links have been tested to ensure that they are pointing in the correct direction.
 
 *This site was tested across the below browsers:*
 
@@ -127,7 +127,7 @@ Clicking on the logo of the navigation bar will bring you back to the home page 
 - IE
 - Firefox
 
-*and devices:*
+*And devices:*
 
 - Laptops (windows & mac)
 - Desktop (windows & mac)
@@ -145,9 +145,9 @@ This let me realise where aria-labels were missing and alt tags. Where loading t
 
 The pictures used were reduced using this [website](https://tinypng.com/), this also led me to changing the picture of the television on the home page to a .jpg file instead of loading it from the internet, which took longer. As a result of these audits on the site each page scored at least 90% or over in the three aspects aforementioned.
 
-There was a issue in Firefox where the banner at the bottom of the home page stops after the first picture has left the window view.  This feature works perfectly in all other windows, [autoprefixer](https://autoprefixer.github.io/) was used to try and correct this but to no avail.
+There was an issue in Firefox where the banner at the bottom of the home page stops after the first picture has left the window view.  This feature works perfectly in all other windows, [autoprefixer](https://autoprefixer.github.io/) was used to try and correct this but to no avail.
 
-In Firefox the 'firstbannerpc' class works but the rest of the pics in the banner do not follow in the animation as they do with other browsers. After much trial and error I was able to resolve this by adding the animation to the div wrapping the pics instead of the first picture, the banner now works on all browsers.
+In Firefox the 'firstbannerpic' class works but the rest of the pics in the banner do not follow in the animation as they do with other browsers. After much trial and error I was able to resolve this by adding the animation to the div wrapping the pics instead of the first picture, the banner now works on all browsers.
 
 In Internet Explorer the 'Yule' and 'Bealtaine' blog titles do not appear in their correct downward text-orientation. I searched this problem using [can I use](https://caniuse.com/#search=text-orient) and unfortunately this is a known bug with IE that cannot be remedied. I reverted back to using breaks within paragraphs to get it working on all browsers.
 
@@ -180,7 +180,7 @@ All content in the about me section and home page were written by myself.
 
 ##### Media
 
-All pictures were gotten for the Instagram page, the image of the telly was a stock photo which can be found [here](https://www.stockphotobucket.com/).
+All pictures were gotten from the Instagram page, the image of the telly was a stock photo which can be found [here](https://www.stockphotobucket.com/).
 
 ##### Acknowledgements
 
