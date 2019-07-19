@@ -149,9 +149,7 @@ There was a issue in Firefox where the banner at the bottom of the home page sto
 
 In Firefox the 'firstbannerpc' class works but the rest of the pics in the banner do not follow in the animation as they do with other browsers. After much trial and error I was able to resolve this by adding the animation to the div wrapping the pics instead of the first picture, the banner now works on all browsers.
 
-##### Known Bugs
-
-In Internet Explorer the 'Yule' and 'Bealtaine' blog titles do not appear in their correct downward text-orientation. I searched this problem using [can I use](https://caniuse.com/#search=text-orient) and unfortunately this is a known bug with IE that cannot be remedied. '<br>' could be used but this isn't good practice.
+In Internet Explorer the 'Yule' and 'Bealtaine' blog titles do not appear in their correct downward text-orientation. I searched this problem using [can I use](https://caniuse.com/#search=text-orient) and unfortunately this is a known bug with IE that cannot be remedied. I reverted back to using breaks within paragraphs to get it working on all browsers.
 
 ### **Deployment**
 Cloud9 was utilised for this project, changes were committed to git and pushed to GitHub as they were made using this IDE. To deploy this page to GitHub pages from its GitHub repository, you need to:
